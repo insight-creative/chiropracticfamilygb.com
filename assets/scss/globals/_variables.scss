@@ -1,0 +1,40 @@
+// Colors
+$primary-color: #cd1f40;
+$secondary-color: #92981b;
+$light-gray: #f6f6f6;
+$gray: #a8a8a8;
+$black: #232323;
+$white: #ffffff;
+
+// Fonts
+$primary-font: "Poppins", sans-serif;
+$secondary-font: "Poppins", sans-serif;
+
+$mobile-header: 80px;
+$desktop-header: 62px;
+
+// Scale and rhythm based on a major third
+$scale: 1.25;
+
+$ic--200: 1rem / $scale / $scale;
+$ic--100: 1rem / $scale;
+$ic-100: 1rem;
+$ic-200: 1rem * $scale;
+$ic-300: 1rem * $scale * $scale;
+$ic-400: 1rem * $scale * $scale * $scale;
+$ic-500: 1rem * $scale * $scale * $scale * $scale;
+$ic-600: 1rem * $scale * $scale * $scale * $scale * $scale;
+$ic-700: 1rem * $scale * $scale * $scale * $scale * $scale * $scale;
+$ic-800: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale;
+$ic-900: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale *
+  $scale;
+$ic-1000: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale *
+  $scale * $scale;
+
+$measure-short: 60ch;
+$measure: 80ch;
+$measure-long: 90ch;
+
+$transition: .3s ease-in-out;
+
+$radius: 5px;
