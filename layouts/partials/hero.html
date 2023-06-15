@@ -5,7 +5,9 @@
   </div>
   <div class="col">
     <div class="hero__content-inner w-100 flow">
-      <h1 id="hero-heading">{{ .Params.hero.heading | safeHTML }}</h1>
+      <h1 class="shift-down" id="hero-heading">{{ .Params.hero.heading | safeHTML }}</h1>
+      <div></div>
+      <div class="fw-500 flow">{{ .Params.hero.sub_heading | markdownify }}</div>
       <div class="fw-500 flow">{{ .Params.hero.body | markdownify }}</div>
       {{ if .Params.hero.button.enabled }}
         {{ with .Params.hero.button }}

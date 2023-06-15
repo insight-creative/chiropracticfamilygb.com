@@ -20,11 +20,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $primary-font;
+  font-family: $secondary-font;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.65em;
 }
+
+// .test {
+//   font-family: $secondary-font;
+// }
 
 .max-80 {
   max-width: $measure;
@@ -79,6 +83,10 @@ p {
 
 .shift-up {
   text-transform: uppercase;
+}
+
+.shift-down {
+  text-transform: lowercase;
 }
 
 .no-margin {

@@ -2,7 +2,7 @@
   position: relative;
   z-index: 1;
   display: inline-block;
-  font-family: $secondary-font;
+  font-family: $primary-font;
   font-size: $ic--200;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -18,7 +18,7 @@
 
   &:hover,
   &:focus {
-    transition: $transition;
+    // transition: $transition;
   }
 }
 
@@ -26,11 +26,15 @@
   color: $white;
   background-color: $primary-color;
   transition: $transition;
+  border-radius: 50px;
 
   &:hover,
   &:focus {
-    color: $white;
-    background-color: $secondary-color;
+    color: $primary-color;
+    background-color: $white;
+    // border: 2px solid $primary-color;
+    box-shadow: 0 0 0 2px $primary-color;
+
   }
 }
 

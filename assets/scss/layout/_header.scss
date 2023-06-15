@@ -5,7 +5,7 @@
   left: 0;
   z-index: 9;
   transition: $transition;
-  background-color: $white;
+  background-color: $light-gray;
   box-shadow: 0 4px 6px -6px;
 }
 
@@ -48,7 +48,7 @@
   display: block;
   width: 100%;
   transition: color $transition;
-  font-family: $secondary-font;
+  font-family: $primary-font;
 
   &:hover,
   &:focus {
@@ -100,7 +100,7 @@
   display: none;
 
   a {
-    font-family: $secondary-font;
+    font-family: $primary-font;
   }
 
   @include breakpoint(md) {
@@ -187,7 +187,7 @@
 .header__nav-list-link, .footer-nav__link {
   position: relative;
   text-decoration: none;
-  font-family: $secondary-font;
+  font-family: $primary-font;
   font-size: 1.1rem;
   padding: $ic--200 0;
   transition: .3s ease-out;
@@ -195,10 +195,8 @@
 
   &::after {
     background: $secondary-color;
-    height: 3px;
+    height: 2px;
     width: 100%;
-    transform: scaleX(0);
-    transform-origin: top right;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -207,15 +205,15 @@
   }
 
   @include breakpoint(md) {
-    &:hover,
-    &:focus {
-      color: $primary-color;
+    // &:hover,
+    // &:focus {
+    //   color: $primary-color;
 
-      &::after {
-        transform: scaleX(1);
-        transform-origin: top left;
-      }
-    }
+    //   &::after {
+    //     transform: scaleX(1);
+    //     transform-origin: top left;
+    //   }
+    // }
   }
 }
 
@@ -242,17 +240,18 @@
 }
 
 .header__nav-list-link {
+  text-transform: uppercase;
 
   @include breakpoint(md) {
     text-decoration: none;
     color: $black;
-    font-family: $secondary-font;
+    font-family: $primary-font;
     font-size: 1.2rem;
     transition: $transition;
     
     &:hover,
     &:focus {
-      color: $primary-color;
+      color: $black;
 
       .header__sub-menu-indicator {
         transform: rotate(180deg);
@@ -324,7 +323,7 @@
   padding: 0.3rem;
   display: block;
   color: $black;
-  font-family: $secondary-font;
+  font-family: $primary-font;
 }
 
 .nav-open {
