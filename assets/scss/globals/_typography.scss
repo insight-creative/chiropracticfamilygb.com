@@ -26,9 +26,9 @@ h6 {
   margin-bottom: 0.65em;
 }
 
-// .test {
-//   font-family: $secondary-font;
-// }
+.primary-font {
+  font-family: $primary-font;
+}
 
 .max-80 {
   max-width: $measure;
@@ -36,7 +36,7 @@ h6 {
 
 h1,
 .h1 {
-  font-size: clamp($ic-400, 4vw, $ic-700);
+  font-size: clamp($ic-400, 4vw, $ic-600);
   max-width: 30ch;
 }
 

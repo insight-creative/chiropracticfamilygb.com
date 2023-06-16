@@ -66,6 +66,10 @@
   justify-content: space-around;
 }
 
+.flex-justify-evenly {
+  justify-content: space-evenly;
+}
+
 @include breakpoint(sm) {
   .flex-column-sm {
     flex-direction: column;

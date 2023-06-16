@@ -1,4 +1,6 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-test
+{{ with .Params.intro }}
+{{ partial "intro" . }}
+{{ end }}
 {{ end }}

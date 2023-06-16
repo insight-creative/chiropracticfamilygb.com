@@ -7,6 +7,7 @@
   transition: $transition;
   background-color: $light-gray;
   box-shadow: 0 4px 6px -6px;
+  padding: $ic-300;
 }
 
 .header__hamburger {
@@ -139,7 +140,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   @include breakpoint(lg) {
     overflow: visible;
@@ -147,7 +148,7 @@
 }
 
 .header__logo {
-  max-width: clamp(150px, 20vw, 200px);
+  max-width: clamp(200px, 20vw, 275px);
 }
 
 .header__nav {
@@ -224,7 +225,7 @@
     position: static;
     list-style-type: none;
     margin-top: 0;
-    padding: $ic-100 $ic-200;
+    padding: $ic-100 $ic-500;
     display: inline-block;
   }
 }
