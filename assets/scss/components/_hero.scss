@@ -1,6 +1,14 @@
 .hero {
   position: relative;
   height: 300px;
+  background-image: url("../uploads/male-neck-readjustment.jpg");
+  background-repeat: no-repeat;
+  background-position: left -7% top 91%;
+  background-size: 25%;
+
+  // &::before {
+  //   content: url("../uploads/leaf-artwork.png");
+  // }
 
   @include breakpoint(md) {
     height: 400px; 

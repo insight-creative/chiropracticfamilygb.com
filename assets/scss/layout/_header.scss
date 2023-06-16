@@ -206,15 +206,16 @@
   }
 
   @include breakpoint(md) {
-    // &:hover,
-    // &:focus {
-    //   color: $primary-color;
+    &:hover,
+    &:focus {
+      font-weight: 700;
+      // color: $primary-color;
 
-    //   &::after {
-    //     transform: scaleX(1);
-    //     transform-origin: top left;
-    //   }
-    // }
+      // &::after {
+      //   transform: scaleX(1);
+      //   transform-origin: top left;
+      // }
+    }
   }
 }
 
