@@ -1,6 +1,16 @@
 {{ define "main" }}
 {{ partial "hero" . }}
+
+{{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
 {{ partial "intro" . }}
 {{ end }}
+{{ end }}
+
+{{ if .Params.our_services_block.enabled }}
+{{ with.Params.our_services_block }}
+{{ partial "services-block" . }}
+{{ end }}
+{{ end }}
+
 {{ end }}

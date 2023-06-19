@@ -208,13 +208,14 @@
   @include breakpoint(md) {
     &:hover,
     &:focus {
-      font-weight: 700;
+      // font-weight: 700;
       // color: $primary-color;
 
       // &::after {
       //   transform: scaleX(1);
       //   transform-origin: top left;
       // }
+      
     }
   }
 }

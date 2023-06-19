@@ -1,31 +1,152 @@
 .hero {
   position: relative;
   height: 300px;
-  background-image: url("../uploads/male-neck-readjustment.jpg");
-  background-repeat: no-repeat;
-  background-position: left -7% top 91%;
-  background-size: 25%;
-
-  // &::before {
-  //   content: url("../uploads/leaf-artwork.png");
-  // }
-
+  
   @include breakpoint(md) {
     height: 400px; 
   }
 
   &__image {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1.5rem;
+  }
 
-    img {
-      height: 100%;
-      width: 100%;
+  &__image-box-left,
+  &__image-box-right {
+    position: relative;
+    max-width: 300px;
+  }
+  
+  &__image-box-left {
+
+    @include breakpoint(sm) {
+      // max-width: 100px;
+      // top: -30px;
+      // left: -30px;
+    }
+    
+    @include breakpoint(md) {
+      position: absolute;
+      max-width: 177px;
+      top: -41px;
+      left: -40px;
+    }
+
+    @include breakpoint(lg) {
+      max-width: 330px;
+      top: -76px;
+      left: -78px;
+    }
+
+    @include breakpoint(xl) {
+      max-width: 530px;
+      top: -123px;
+      left: -124px;
+    }
+  }
+
+  &__image-box-right {
+    // max-width: 650px;
+    // bottom: -135px;
+    // right: -180px;
+
+    @include breakpoint(sm) {
+      // max-width: 150px;
+      // bottom: 0px;
+      // right: -50px;
+    }
+    
+    @include breakpoint(md) {
+      position: absolute;
+      max-width: 250px;
+      bottom: 0px;
+      right: -80px;
+    }
+
+    @include breakpoint(lg) {
+      max-width: 450px;
+      bottom: -70px;
+      right: -150px;
+    }
+
+    @include breakpoint(xl) {
+      max-width: 650px;
+      bottom: -125px;
+      right: -180px;
     }
   }
 
   &__content {
+
     p {
       max-width: 60ch;
     }
+  }
+}
+
+.img-leaf {
+  display: none;
+
+  @include breakpoint(sm) {
+    position: absolute;
+    display: block;
+    max-width: 160px;
+    left: 57px;
+    bottom: -15px;
+    transform: translateX(0%);
+  }
+  
+  @include breakpoint(md) {
+    max-width: 105px;
+    left: 16px;
+    bottom: -22px;
+  }
+
+  @include breakpoint(lg) {
+    max-width: 178px;
+    left: 39px;
+    bottom: -13px;
+  }
+
+  @include breakpoint(xl) {
+    max-width: 281px;
+    left: 49px;
+    bottom: -25px;
+  }
+}
+
+.img-spine {
+  position: absolute;
+  left: 36%;
+  top: -33px;
+  max-width: 20px;
+  transform: translateX(-50%);
+
+  @include breakpoint(sm) {
+    max-width: 37px;
+    left: 88px;
+    top: -20px;
+  }
+  
+  @include breakpoint(md) {
+    max-width: 35px;
+    left: 80px;
+    top: -30px;
+  }
+
+  @include breakpoint(lg) {
+    max-width: 55px;
+    left: 120px;
+    top: -50px;
+  }
+
+  @include breakpoint(xl) {
+    max-width: 80px;
+    left: 150px;
+    top: -80px;
   }
 }

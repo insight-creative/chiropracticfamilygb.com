@@ -1,13 +1,20 @@
 {{ $heroClass := lower .Page.Title }}
 <section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero">
-  <div class="wrapper-xs flex">
-    <!-- <div class="hero__image">
-      <img src="{{ .Params.hero.image.image_url}}" alt="">
-    </div> -->
+  <div class="wrapper-xs flex flex-column">
     <div class="hero__content flow">
       <h1 class="shift-down" id="hero-heading">{{ .Params.hero.heading | safeHTML }}</h1>
       <h3 class="primary-font">{{ .Params.hero.sub_heading}}</h3>
       <p>{{ .Params.hero.body | markdownify}}</p>
+    </div>
+    <div class="hero__image">
+      <div class="hero__image-box-left">
+        <img class="img-neck-adjustment" src="{{ .Params.hero.image.image_url }}" alt="">
+        <img class="img-leaf" src="{{ .Params.hero.image1.image_url }}" alt="">
+      </div>
+      <div class="hero__image-box-right">
+        <img src="{{ .Params.hero.image2.image_url }}" alt="">
+        <img class="img-spine" src="{{ .Params.hero.image3.image_url }}" alt="">
+      </div>
     </div>
   </div>
 </section>

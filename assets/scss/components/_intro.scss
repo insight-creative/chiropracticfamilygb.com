@@ -1,6 +1,37 @@
 .intro {
+  padding-top: 18rem;
+
+  @include breakpoint(sm) {
+    padding-top: 23rem;
+  }
+
+  @include breakpoint(md) {
+    padding-top: 10rem;
+  }
+
+  &__wrapper {
+    gap: 2rem;
+    
+    @include breakpoint(sm) {
+      display: flex;
+    }
+  }
+
+  &__image {
+    h4 {
+      display: none;
+
+      @include breakpoint(sm) {
+        display: block;
+        text-align: center;
+        font-family: $primary-font;
+        color: $tertiary-color;
+        margin-top: 1rem;
+      }
+    }
+  }
 
   &__content {
-    max-width: 60ch;
+    margin-top: $ic-200;
   }
 }

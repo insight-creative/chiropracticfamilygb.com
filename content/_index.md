@@ -12,12 +12,19 @@ hero:
 
     <strong>Welcome to our family!</strong>
   image:
-    image_url: /uploads/male-neck-readjustment.jpg
+    image_url: /uploads/neck-adjustment.png
     image_alt: Male getting his neck readjusted
   image1:
+    image_url: /uploads/artistic-leaf.svg
+    image_alt: Artistic leaf
+  image2:
+    image_url: /uploads/blob-design.svg
+    image_alt: Shape design
+  image3:
     image_url: /uploads/spine.png
     image_alt: Image of a spine
 intro:
+  enabled: true
   heading: Meet Dr. Emily Radka
   body: 
     Dr. Emily, born and raised in West De Pere, WI, always knew she wanted to be in the healthcare field. She completed her prerequisite courses in human biology at the University of Wisconsin - Green Bay before pursuing her Doctorate in Chiropractic and Bachelor’s Degree of Chiropractic at Palmer College of Chiropractic. With extensive clinical experience serving patients of all ages, from infants to seniors, Dr. Emily is committed to providing compassionate and personalized chiropractic care.
@@ -29,10 +36,12 @@ intro:
     button_url: /about/
     button_text: Learn More About Chiropractic Family
 our_services_block:
+  heading: Our Services
+  enabled: true
   content:
     - heading: Our Mission to Your Wellness
       body: 
-        At Chiropractic Family, our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness. We are dedicated to educating and empowering our patients, encouraging them to take an active role in their own health. Trust, respect, and outstanding service are the pillars of our care.
+        At Chiropractic Family, <strong>our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.</strong> We are dedicated to educating and empowering our patients, encouraging them to take an active role in their own health. <strong>Trust, respect, and outstanding service</strong> are the pillars of our care.
     - heading: Feel Your Best and Thrive
       body: 
         Chiropractic adjustments are a safe and effective way to reduce headaches, muscle aches and pains, mobility issues, back pain, neck soreness, poor posture, joint pain, sciatica, improve balance and promote overall health and wellness. Dr. Emily can help address all these issues and more non-invasively and without medications.
@@ -44,10 +53,16 @@ our_services_block:
     button_url: /services/
     button_text: Our Services
   image:
-    image_url: /uploads/
-    image_alt:
+    image_url: /uploads/image-of-a-toddler.png
+    image_alt: Image of a toddler
   image1:
-    image_url: /uploads/
-    image_alt:
+    image_url: /uploads/artistic-branch.svg
+    image_alt: Image of an artistic branch
+  image2:
+    image_url: /uploads/pregnant-woman.png
+    image_alt: Image of a pregnant woman
+  image3:
+    image_url: /uploads/artistic-tree.svg
+    image_alt:  Image of an artistic tree
 ---
 Test

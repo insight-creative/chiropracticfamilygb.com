@@ -1,0 +1,30 @@
+<section aria-labelledby="{{ .heading | urlize }}" class="services-block block flex">
+  <div class="wrapper-xs ">
+
+    <div class="services-block__image">
+      <div class="services-block__image-box-left">
+        <img class="img-toddler" src="{{ .image.image_url }}" alt="">
+        <img class="img-artistic-branch" src="{{ .image1.image_url }}" alt="">
+      </div>
+      <div class="services-block__image-box-right">
+        <img class="img-pregnant-woman" src="{{ .image2.image_url }}" alt="">
+        <img class="img-artistic-tree" src="{{ .image3.image_url }}" alt="">
+      </div>
+    </div>
+
+
+    <div class="flow mt-7">
+      {{ range .content }}
+      <div class="services-block__content">
+        <h2>{{ .heading }}</h2>
+        <p>{{ .body | markdownify}}</p>
+      </div>
+      {{ end }}
+      {{ if .button.enabled }}
+      {{ with .button }}
+        {{ partial "button-primary" . }}
+      {{ end }}
+    {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,113 @@
+.services-block {
+
+  &__image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1.5rem;
+  }
+
+  &__image-box-left,
+  &__image-box-right {
+    position: relative;
+    max-width: 300px;
+
+    // @include breakpoint(xl) {
+    //   max-width: 500px;
+    // }
+  }
+
+  &__image-box-left {
+
+    @include breakpoint(md) {
+      position: absolute;
+      max-width: 140px;
+      bottom: 215px;
+      left: -30px;
+    }
+
+    @include breakpoint(lg) {
+      max-width: 255px;
+      bottom: 254px;
+      left: -45px;
+    }
+
+    @include breakpoint(xl) {
+      max-width: 500px;
+      bottom: 190px;
+      left: -47px;
+    }
+  }
+
+  &__image-box-right {
+
+    @include breakpoint(md) {
+      position: absolute;
+      max-width: 170px;
+      bottom: 678px;
+      right: -50px;
+    }
+
+    @include breakpoint(lg) {
+      max-width: 265px;
+      bottom: 608px;
+      right: -56px;
+    }
+
+    @include breakpoint(xl) {
+      max-width: 500px;
+      bottom: 430px;
+      right: -115px;
+    }
+  }
+
+  .img-artistic-branch {
+    display: none;
+
+    @include breakpoint(md) {
+      position: absolute;
+      display: block;
+      max-width: 105px;
+      bottom: -51px;
+      left: 25px;
+    }
+
+    @include breakpoint(lg) {
+      max-width: 150px;
+      bottom: -34px;
+      left: 114px;
+    }
+
+    @include breakpoint(xl) {
+      max-width: 292px;
+      bottom: -63px;
+      left: 256px;
+    }
+  }
+
+  .img-artistic-tree {
+    display: none;
+
+    @include breakpoint(md) {
+      position: absolute;
+      display: block;
+      max-width: 119px;
+      bottom: 92px;
+      left: 62px;
+    }
+
+    @include breakpoint(lg) {
+      max-width: 185px;
+      bottom: 150px;
+      left: 100px;
+    }
+
+    @include breakpoint(xl) {
+      max-width: 265px;
+      bottom: 320px;
+      left: 212px;
+    }
+  }
+}
