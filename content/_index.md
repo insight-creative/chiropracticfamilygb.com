@@ -64,5 +64,21 @@ our_services_block:
   image3:
     image_url: /uploads/artistic-tree.svg
     image_alt:  Image of an artistic tree
+testimonial_block:
+  enabled: true
+  heading: Testimonials
+  quotes:
+    - quote:
+        <strong>Dr. Emily is the best!</strong> She was very in tune to me and knew exactly what needed to be adjusted. She went above and beyond to make sure that I could get back to the gym and enjoy working out pain free and not taking time off to heal."
+      quoter: Cindy
+      image:
+        image_url: /uploads/quote-left.png
+        image_alt: Blob shape for quote
+    - quote: 
+        I have been going to chiropractors since I was 16 and in that time I have only had one chiropractor successfully adjust my neck. After seeing Dr. Emily she was able to successfully adjust me and my neck. <strong>I have never felt better!</strong> She is amazing!!"
+      quoter: Mike
+      image:
+        image_url: /uploads/quote-right.png
+        image_alt: Blob shape for quote
 ---
 Test

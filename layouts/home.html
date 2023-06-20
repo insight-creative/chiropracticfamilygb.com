@@ -13,4 +13,10 @@
 {{ end }}
 {{ end }}
 
+{{ if .Params.testimonial_block.enabled }}
+{{ with .Params.testimonial_block }}
+{{ partial "testimonial-block" . }}
+{{ end }}
+{{ end }}
+
 {{ end }}

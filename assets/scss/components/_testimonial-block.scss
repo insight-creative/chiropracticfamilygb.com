@@ -1,0 +1,64 @@
+.testimonial-block {
+
+  &__wrapper {
+
+    @include breakpoint(md) {
+      display: flex;
+    }
+
+    blockquote {
+      position: relative;
+      line-height: $ic-100;
+      margin: 0 auto 1rem;
+      padding: 35px 30px 30px 70px;
+      max-width: 365px;
+      min-height: 285px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    
+      @include breakpoint(sm) {
+        line-height: $ic-400;
+        padding: 70px 30px 30px 60px;
+        max-width: 485px;
+        min-height: 405px;
+      }
+    
+      @include breakpoint(md) {
+        font-size: $ic-200;
+        // line-height: 30px;
+        // margin: 0px auto 10px;
+        padding: 75px 30px 30px 60px;
+        max-width: 480px;
+        min-height: 370px;
+      }
+    }
+
+    q {
+      quotes: none;
+    }
+
+    cite {
+			display: block;
+      font-size: $ic-100;
+      font-family: $secondary-font;
+      text-align: right;
+      margin-top: $ic-100;
+      padding-right: $ic-900;
+
+      @include breakpoint(sm) {
+        font-size: $ic-300;
+        // display: block;
+        // font-family: $secondary-font;
+        // text-align: right;
+        // margin-top: $ic-200;
+        // padding-right: $ic-900;
+      }
+
+      
+
+
+		}
+  }
+
+
+}

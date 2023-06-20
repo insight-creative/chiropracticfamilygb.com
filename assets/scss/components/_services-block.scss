@@ -13,10 +13,6 @@
   &__image-box-right {
     position: relative;
     max-width: 300px;
-
-    // @include breakpoint(xl) {
-    //   max-width: 500px;
-    // }
   }
 
   &__image-box-left {
@@ -24,19 +20,19 @@
     @include breakpoint(md) {
       position: absolute;
       max-width: 140px;
-      bottom: 215px;
+      bottom: 806px;
       left: -30px;
     }
 
     @include breakpoint(lg) {
       max-width: 255px;
-      bottom: 254px;
+      bottom: 758px;
       left: -45px;
     }
 
     @include breakpoint(xl) {
       max-width: 500px;
-      bottom: 190px;
+      bottom: 689px;
       left: -47px;
     }
   }
@@ -46,19 +42,19 @@
     @include breakpoint(md) {
       position: absolute;
       max-width: 170px;
-      bottom: 678px;
+      bottom: 1068px;
       right: -50px;
     }
 
     @include breakpoint(lg) {
       max-width: 265px;
-      bottom: 608px;
+      bottom: 1012px;
       right: -56px;
     }
 
     @include breakpoint(xl) {
       max-width: 500px;
-      bottom: 430px;
+      bottom: 881px;
       right: -115px;
     }
   }

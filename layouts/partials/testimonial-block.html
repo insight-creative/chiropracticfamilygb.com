@@ -1,0 +1,16 @@
+<section aria-labelledby="{{ .heading | urlize }}" class="testimonial-block block">
+
+<div class="testimonial-block__wrapper wrapper-sm">
+  {{ range .quotes }}
+  <blockquote class="quote" style="background-image: url('{{ .image.image_url }}')">
+    <q>{{ .quote | markdownify }}</q>
+      <cite>{{ .quoter | markdownify }}</cite>
+    
+    
+  </blockquote>
+  {{ end }}
+</div>
+
+
+
+</section>

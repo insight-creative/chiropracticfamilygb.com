@@ -1,6 +1,5 @@
 <section aria-labelledby="{{ .heading | urlize }}" class="services-block block flex">
   <div class="wrapper-xs ">
-
     <div class="services-block__image">
       <div class="services-block__image-box-left">
         <img class="img-toddler" src="{{ .image.image_url }}" alt="">
@@ -11,12 +10,10 @@
         <img class="img-artistic-tree" src="{{ .image3.image_url }}" alt="">
       </div>
     </div>
-
-
     <div class="flow mt-7">
       {{ range .content }}
       <div class="services-block__content">
-        <h2>{{ .heading }}</h2>
+        <h2 class="shift-down">{{ .heading }}</h2>
         <p>{{ .body | markdownify}}</p>
       </div>
       {{ end }}
