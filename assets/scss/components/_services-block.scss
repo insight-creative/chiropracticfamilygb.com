@@ -42,19 +42,19 @@
     @include breakpoint(md) {
       position: absolute;
       max-width: 170px;
-      top: 1162px;
+      top: 1100px;
       right: -50px;
     }
 
     @include breakpoint(lg) {
       max-width: 265px;
-      top: 1142px;
+      top: 1105px;
       right: -56px;
     }
 
     @include breakpoint(xl) {
       max-width: 500px;
-      top: 1115px;
+      top: 1025px;
       right: -115px;
     }
   }
