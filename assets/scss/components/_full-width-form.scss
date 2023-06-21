@@ -1,0 +1,61 @@
+.full-width-form {
+  background: $light-gray;
+  // padding: $ic-200;
+
+  &__wrapper {
+    padding: $ic-600 0;
+  }
+
+  h2 {
+    color: $tertiary-color;
+  }
+
+  @include breakpoint(md) {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+.full-width-form {
+
+  &__wrapper {
+
+    @include breakpoint(md) {
+      display: flex;
+      gap: $ic-500;
+    }
+  }
+
+  &__info-col {
+    margin: 0 0 $ic-100 0;
+    border-width: 0 0 1px 0;
+    border-color: $light-brown;
+    border-style: solid;
+
+    @include breakpoint(md) {
+      border-width: 0 1px 0 0;
+      padding: 0 $ic-600 0 0;
+    }
+  }
+
+  &__business-location {
+
+  }
+
+  &__operating-hours {
+    
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: $ic-200;
+    }
+  }
+
+  &__form-col {
+
+  }
+}

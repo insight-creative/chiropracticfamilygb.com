@@ -20,19 +20,19 @@
     @include breakpoint(md) {
       position: absolute;
       max-width: 140px;
-      bottom: 806px;
+      top: 1685px;
       left: -30px;
     }
 
     @include breakpoint(lg) {
       max-width: 255px;
-      bottom: 758px;
+      top: 1660px;
       left: -45px;
     }
 
     @include breakpoint(xl) {
       max-width: 500px;
-      bottom: 689px;
+      top: 1500px;
       left: -47px;
     }
   }
@@ -42,19 +42,19 @@
     @include breakpoint(md) {
       position: absolute;
       max-width: 170px;
-      bottom: 1068px;
+      top: 1337px;
       right: -50px;
     }
 
     @include breakpoint(lg) {
       max-width: 265px;
-      bottom: 1012px;
+      top: 1323px;
       right: -56px;
     }
 
     @include breakpoint(xl) {
       max-width: 500px;
-      bottom: 881px;
+      top: 1306px;
       right: -115px;
     }
   }
@@ -65,20 +65,20 @@
     @include breakpoint(md) {
       position: absolute;
       display: block;
-      max-width: 105px;
-      bottom: -51px;
-      left: 25px;
+      max-width: 85px;
+      top: 61px;
+      left: 29px;
     }
 
     @include breakpoint(lg) {
       max-width: 150px;
-      bottom: -34px;
+      top: 85px;
       left: 114px;
     }
 
     @include breakpoint(xl) {
       max-width: 292px;
-      bottom: -63px;
+      top: 157px;
       left: 256px;
     }
   }
@@ -90,19 +90,19 @@
       position: absolute;
       display: block;
       max-width: 119px;
-      bottom: 92px;
+      top: -84px;
       left: 62px;
     }
 
     @include breakpoint(lg) {
       max-width: 185px;
-      bottom: 150px;
+      top: -132px;
       left: 100px;
     }
 
     @include breakpoint(xl) {
       max-width: 265px;
-      bottom: 320px;
+      top: -190px;
       left: 212px;
     }
   }

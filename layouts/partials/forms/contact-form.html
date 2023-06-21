@@ -1,47 +1,75 @@
-<form method="post" name="Contact Stadium Bike" action="/thank-you/">
+<form class="full-width-form" method="post" name="Contact Chiropractic Family" action="/thank-you/">
     <div class="visually-hidden">
-        <label for="_subject">New form submission from Quintessense contact form</label>
-        <input aria-label="subject" id="_subject" name="_subject" value="New form submission from Quintessense contact form"/>
+        <label for="_subject">New form submission from Chiropractic Family contact form</label>
+        <input aria-label="subject" id="_subject" name="_subject" value="New form submission from Chiropractic Family contact form"/>
     </div>
-    <div class="contact-form__form-row">
-        <div class="contact-form__row-wrapper">
-            <div class="contact-form__form-group">
-                <label for="first_name">First Name *</label>
-                <input name="First Name" id="first_name" type="text" class="contact-form__form-control" required>
+    <div class="full-width-form__wrapper">
+        <div class="full-width-form__info-col">
+            <h2>visit us</h2>
+            <div class="full-width-form__business-location">
+                <p class="h4 b">Chiropractic Family</p>
+                <p>677 Baeten Road, Suite 201</p>
+                <p class="mb-2">Ashwaubenon, WI 54304</p>
             </div>
-            <div class="contact-form__form-group">
-                <label for="last_name">Last Name *</label>
-                <input name="Last Name" id="last_name" type="text" class="contact-form__form-control" required>
+            <div class="full-width-form__operating-hours">
+                <p class="h4 b">Hours</p>
+                <ul>
+                    <li>
+                        <p class="b">Monday-Thursday</p>
+                        <span>9am-1pm, 3pm-6pm</span>
+                    </li>
+                    <li>
+                        <p class="b">Friday</p>
+                        <span>9am-1pm</span>
+                    </li>
+                    <li>
+                        <p class="b">Walk-ins are always welcome!</p>
+                        <p><span>Email address here</span></p>
+                        <p><span>Phone number here</span></p>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="contact-form__form-row">
-        <div class="contact-form__row-wrapper">
-            <div class="contact-form__form-group">
-                <label for="email">Email *</label>
-                <input name="email" id="email" type="email" class="contact-form__form-control" required>
+        <div class="full-width-form__form-col">
+            <h2>join our waitlist</h2>
+            <p>Get in touch so we can schedule an appointment!</p>
+            <div class="contact-form__form-row">
+                <div class="contact-form__row-wrapper">
+                    <div class="contact-form__form-group">
+                        <label for="first_name">Name *</label>
+                        <input name="First Name" id="first_name" type="text" class="contact-form__form-control" required>
+                    </div>
+                </div>
             </div>
-            <div class="contact-form__form-group">
-                <label for="phone">Phone *</label>
-                <input name="Phone" id="phone" type="tel" class="contact-form__form-control" required>
+            <div class="contact-form__form-row">
+                <div class="contact-form__row-wrapper">
+                    <div class="contact-form__form-group">
+                        <label for="email">Email *</label>
+                        <input name="email" id="email" type="email" class="contact-form__form-control" required>
+                    </div>
+                </div>
             </div>
+            <div class="contact-form__form-row">
+                <div class="contact-form__row-wrapper">
+                    <div class="contact-form__form-group">
+                        <label for="phone">Phone *</label>
+                        <input name="Phone" id="phone" type="tel" class="contact-form__form-control" required>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form__form-row">
+                <div class="contact-form__row-wrapper">
+                    <div class="contact-form__form-group">
+                        <label for="message">Concerns *</label>
+                        <textarea name="Message" id="message" class="contact-form__form-control" rows="4" required></textarea>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" name="inbox_key" value="contact_inbox" class="contact-form__inbox-key">
+            <input type="text" name="_gotcha" class="visually-hidden" aria-label="gotcha">
+            <div class="h-captcha" data-sitekey="27fc2eeb-6552-42eb-bdb4-7addadd4e33f"></div>
+            <br>
+            <button type="submit" class="contact-form__btn btn btn--primary">Submit</button>
         </div>
-    </div>  
-    <div class="contact-form__form-group">
-        <label for="contact_preference">How would you prefer to be contacted? *</label>
-        <select name="Contact Preference" id="contact_preference" class="contact-form__form-control" required>
-            <option value="">Please choose an option</option>
-            <option value="Phone">Phone</option>
-            <option value="Email">Email</option>
-        </select>
     </div>
-    <div class="contact-form__form-group">
-        <label for="message">Message *</label>
-        <textarea name="Message" id="message" class="contact-form__form-control" rows="4" required></textarea>
-    </div>
-    <input type="hidden" name="inbox_key" value="contact_inbox" class="contact-form__inbox-key">
-    <input type="text" name="_gotcha" class="visually-hidden" aria-label="gotcha">
-    <div class="h-captcha" data-sitekey="27fc2eeb-6552-42eb-bdb4-7addadd4e33f"></div>
-    <br>
-    <button type="submit" class="contact-form__btn btn btn--primary">Send Request</button>
 </form>
