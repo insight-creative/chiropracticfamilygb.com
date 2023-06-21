@@ -3,6 +3,8 @@
   // padding: $ic-200;
 
   &__wrapper {
+    position: relative;
+    z-index: 1;
     padding: $ic-600 0;
   }
 
@@ -38,10 +40,6 @@
     }
   }
 
-  &__business-location {
-
-  }
-
   &__operating-hours {
     
     ul {
@@ -54,8 +52,11 @@
       margin-bottom: $ic-200;
     }
   }
+}
 
-  &__form-col {
-
-  }
+.image-bottom-right {
+  position: absolute;
+  right: -15px;
+  width: 180px;
+  bottom: 0;
 }
