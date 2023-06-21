@@ -7,7 +7,19 @@
   transition: $transition;
   background-color: $light-gray;
   box-shadow: 0 4px 6px -6px;
-  padding: $ic-300;
+  // padding: $ic-300;
+
+  @include breakpoint(md) {
+    padding: $ic-300;
+  }
+}
+
+.header__end {
+  display: none;
+
+  @include breakpoint(md) {
+    display: block;
+  }
 }
 
 .header__hamburger {
@@ -23,7 +35,7 @@
   overflow: hidden;
   transition: $transition;
   background-color: $white;
-  border-bottom: 2px solid $primary-color;
+  // border-bottom: 2px solid $primary-color;
   overflow: hidden;
   max-height: 0;
   transition: max-height .5s ease-in-out;

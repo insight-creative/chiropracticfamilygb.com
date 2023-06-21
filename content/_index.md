@@ -34,7 +34,7 @@ intro:
   button:
     enabled: true
     button_url: /about/
-    button_text: Learn More About Chiropractic Family
+    button_text: Learn More
 our_services_block:
   heading: Our Services
   enabled: true
