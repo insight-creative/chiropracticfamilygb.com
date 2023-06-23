@@ -204,16 +204,16 @@
   transition: .3s ease-out;
   color: $black;
 
-  &::after {
-    background: $secondary-color;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: "";
-    transition: transform 0.4s ease-out;
-  }
+  // &::after {
+  //   background: $secondary-color;
+  //   height: 2px;
+  //   width: 100%;
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   content: "";
+  //   transition: transform 0.4s ease-out;
+  // }
 
   @include breakpoint(md) {
     &:hover,
@@ -254,6 +254,19 @@
 .header__nav-list-link {
   text-transform: uppercase;
 
+  &::after {
+    background: $secondary-color;
+    height: 3px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: top right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transition: transform $transition;
+  }
+
   @include breakpoint(md) {
     text-decoration: none;
     color: $black;
@@ -264,6 +277,11 @@
     &:hover,
     &:focus {
       color: $black;
+
+      &::after {
+        transform: scaleX(1);
+        transform-origin: top right;
+      }
 
       .header__sub-menu-indicator {
         transform: rotate(180deg);

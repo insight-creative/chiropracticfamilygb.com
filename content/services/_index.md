@@ -12,6 +12,7 @@ seo:
 hero: 
   enabled: true
   heading: Our Services
+  sub_heading:
   body:
     Dr. Emily provides safe and effective chiropractic adjustments for all ages. Dr. Emily has training in diversified, Thompson, and Activator, as well as many more techniques.
 
