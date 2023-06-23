@@ -1,15 +1,9 @@
 <section aria-labelledby="{{ .heading | urlize }}" class="services-block">
-  <div class="wrapper-xs ">
-    <div class="services-block__image">
-      <div class="services-block__image-box-left">
-        <img class="img-toddler" src="{{ .image.image_url }}" alt="">
-        <img class="img-artistic-branch" src="{{ .image1.image_url }}" alt="">
-      </div>
-      <div class="services-block__image-box-right">
-        <img class="img-pregnant-woman" src="{{ .image2.image_url }}" alt="">
-        <img class="img-artistic-tree" src="{{ .image3.image_url }}" alt="">
-      </div>
-    </div>
+
+  <div class="services-block__image-box-left">
+    <img class="img-toddler" src="{{ .image.image_url }}" alt="">
+  </div>
+  <div class="services-block__outter-wrapper wrapper-xs ">
     <div class="flow mt-7">
       {{ range .content }}
       <div class="services-block__content">
@@ -23,5 +17,8 @@
       {{ end }}
     {{ end }}
     </div>
+  </div>
+  <div class="services-block__image-box-right">
+    <img class="img-pregnant-woman" src="{{ .image1.image_url }}" alt="">
   </div>
 </section>

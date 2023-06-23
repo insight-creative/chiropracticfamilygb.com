@@ -1,9 +1,9 @@
 <section aria-labelledby="{{ .heading | urlize }}" class="intro block">
-  <div class="intro__wrapper wrapper-sm">
-    <div class="intro__image">
-      <img src="{{ .image.image_url }}" alt="">
-      <h4>Dr. Emily Radka</h4>
-    </div>
+  <div class="intro__image">
+    <img src="{{ .image.image_url }}" alt="">
+    <h4>Dr. Emily Radka</h4>
+  </div>
+  <div class="intro__wrapper wrapper-xs">
     <div class="intro__content flow">
       {{ partial "heading" . }}
       {{ if .body }}

@@ -1,109 +1,22 @@
 .services-block {
 
-  &__image {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 0 1.5rem;
-  }
-
-  &__image-box-left,
-  &__image-box-right {
-    position: relative;
-    max-width: 300px;
+  &__outter-wrapper {
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
   &__image-box-left {
-
-    @include breakpoint(md) {
       position: absolute;
-      max-width: 140px;
-      top: 1510px;
-      left: -30px;
-    }
-
-    @include breakpoint(lg) {
-      max-width: 255px;
-      top: 1456px;
-      left: -45px;
-    }
-
-    @include breakpoint(xl) {
-      max-width: 500px;
-      top: 1320px;
+      z-index: -1;
+      max-width: clamp(200px, 50%, 500px);
+      top: 1380px;
       left: -47px;
-    }
   }
 
   &__image-box-right {
-
-    @include breakpoint(md) {
       position: absolute;
-      max-width: 170px;
-      top: 1100px;
-      right: -50px;
-    }
-
-    @include breakpoint(lg) {
-      max-width: 265px;
-      top: 1105px;
-      right: -56px;
-    }
-
-    @include breakpoint(xl) {
-      max-width: 500px;
-      top: 1025px;
+      z-index: -1;
+      max-width: clamp(200px, 50%, 500px);
+      top: 825px;
       right: -115px;
-    }
-  }
-
-  .img-artistic-branch {
-    display: none;
-
-    @include breakpoint(md) {
-      position: absolute;
-      display: block;
-      max-width: 85px;
-      top: 61px;
-      left: 29px;
-    }
-
-    @include breakpoint(lg) {
-      max-width: 150px;
-      top: 85px;
-      left: 114px;
-    }
-
-    @include breakpoint(xl) {
-      max-width: 292px;
-      top: 157px;
-      left: 256px;
-    }
-  }
-
-  .img-artistic-tree {
-    display: none;
-
-    @include breakpoint(md) {
-      position: absolute;
-      display: block;
-      max-width: 119px;
-      top: -84px;
-      left: 62px;
-    }
-
-    @include breakpoint(lg) {
-      max-width: 185px;
-      top: -132px;
-      left: 100px;
-    }
-
-    @include breakpoint(xl) {
-      max-width: 265px;
-      top: -190px;
-      left: 212px;
-    }
   }
 }

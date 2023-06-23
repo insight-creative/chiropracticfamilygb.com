@@ -8,30 +8,30 @@
             <h2>visit us</h2>
             <div class="full-width-form__business-location">
                 <p class="h4 b">Chiropractic Family</p>
-                <p>677 Baeten Road, Suite 201</p>
-                <p class="mb-2">Ashwaubenon, WI 54304</p>
+                <address>
+                    <p><a href="{{ .Site.Data.site_settings.address.google_maps_url }}" target="_blank" rel="noopener noreferrer">{{ .Site.Data.site_settings.address.street }}<br>{{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }} {{ .Site.Data.site_settings.address.zip }}</a></p>
+                </address>
             </div>
-            <div class="full-width-form__operating-hours">
+            <div class="full-width-form__operating-hours mt-2">
                 <p class="h4 b">Hours</p>
                 <ul>
                     <li>
-                        <p class="b">Monday-Thursday</p>
-                        <span>9am-1pm, 3pm-6pm</span>
+                        <p class="b">{{ .Site.Data.site_settings.business_hours.full_day }}</p>
+                        <span>{{ .Site.Data.site_settings.business_hours.full_day_hours }}</span>
                     </li>
                     <li>
-                        <p class="b">Friday</p>
-                        <span>9am-1pm</span>
+                        <p class="b">{{ .Site.Data.site_settings.business_hours.half_day }}</p>
+                        <span>{{ .Site.Data.site_settings.business_hours.half_day_hours }}</span>
                     </li>
                     <li>
                         <p class="b">Walk-ins are always welcome!</p>
-                        <p><span>Email address here</span></p>
-                        <p><span>Phone number here</span></p>
+                        <p><span>{{ .Site.Data.site_settings.phone }}</span></p>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="full-width-form__form-col">
-            <h2>join our waitlist</h2>
+            <h2 class="text-align-center">join our waitlist</h2>
             <p class="mb-4">Get in touch so we can schedule an appointment!</p>
             <div class="contact-form__form-row">
                 <div class="contact-form__row-wrapper">

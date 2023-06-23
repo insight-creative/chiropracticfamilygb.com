@@ -4,13 +4,14 @@
 
     @include breakpoint(md) {
       display: flex;
+      gap: $ic-400;
     }
 
     blockquote {
       position: relative;
-      line-height: $ic-100;
+      line-height: $ic-200;
       margin: 0 auto 1rem;
-      padding: 35px 30px 30px 70px;
+      padding: 40px 30px 30px 70px;
       max-width: 365px;
       min-height: 285px;
       background-size: 100%;
@@ -33,25 +34,25 @@
       &:before {
         position: absolute;
         content: "";
-        top: 10px;
-        left: 30px;
-        width: 35px;
-        height: 40px;
-        background: url("../uploads/yeseva-quotes.png") no-repeat;
-        background-size: 100%;
+        top: 5px;
+        left: 20px;
+        width: 45px;
+        height: 120px;
+        background: url("../uploads/quote-mark.png") no-repeat;
+        background-size: contain;
 
         @include breakpoint(sm) {
           top: 25px;
-          left: -10px;
+          left: -5px;
           width: 60px;
-          height: 70px;
+          height: 170px;
         }
 
         @include breakpoint(md) {
           top: 20px;
           left: -15px;
           width: 70px;
-          height: 80px;
+          height: 185px;
         }
       }
     }
@@ -67,6 +68,7 @@
       text-align: right;
       margin-top: $ic-100;
       padding-right: $ic-900;
+      color: #424340;
 
       @include breakpoint(sm) {
         font-size: $ic-300;

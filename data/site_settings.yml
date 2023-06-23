@@ -3,13 +3,18 @@ footer_logo:
 business_name: Chiropractic Family
 phone: 555-555-5555
 fax:
-email: email@emailaddress.com
+email: 
 address:
   city: Ashwaubenon
   state: WI
   street: 677 Baeten Road, Suite 201
   zip: 54304
-google_maps_url: https://www.google.com/maps
+google_maps_url: https://goo.gl/maps/7itLiF4oJFMb12rn9
+business_hours:
+  full_day: Monday-Thursday
+  full_day_hours: 9am-1pm, 3pm-6pm
+  half_day: Friday
+  half_day_hours: 9am-1pm
 social_media:
   - title: Facebook
     link: https://www.facebook.com/insightcreativeinc

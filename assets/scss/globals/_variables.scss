@@ -9,8 +9,8 @@ $black: #434441;
 $white: #ffffff;
 
 // Fonts
-$primary-font: "Aboria", sans-serif;
-$secondary-font: "Yeseva One", serif;
+$primary-font: "Arboria", serif;
+$secondary-font: "Yeseva One", sans-serif;
 
 $mobile-header: 110px;
 $desktop-header: 150px;
@@ -40,3 +40,12 @@ $measure-long: 90ch;
 $transition: .3s ease-in-out;
 
 $radius: 5px;
+
+/* yeseva-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/yeseva-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
