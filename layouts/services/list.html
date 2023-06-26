@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.who_we_service.enabled }}
+  {{ with .Params.who_we_service }}
+  <div class="wrapper-lg flex flex-justify-center gap-md">
+    {{ range .content }}
+      <div class="services__content-wrapper">
+        <h2>{{ .heading }}</h2>
+        {{ .benefits | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
+{{ end }}

@@ -24,10 +24,64 @@ hero:
     button_url: #
     button_text: Visit Us
   image:
-    image_url: /uploads/artistic-flower-stem.svg
+    image_url: /uploads/artistic-branch.jpg
     image_alt:  Artistic Flower Stem
   image1:
-    image_url: /uploads/stock-image-baby.png
+    image_url: /uploads/stock-baby-image.jpg
     image_alt:  Stock Image Baby
+who_we_service:
+  enabled: true
+  content:
+    - heading: pregnancy
+      benefits: >-
+        * Reduce labor average labor times
 
+        * Increase comfort during pregnancy
+
+        * Support natural labor
+
+        * Relieve neck, back, + pelvic pain
+        
+        * Utilizes the Webster Technique
+        
+        * Alleviate nausea, reflux + indigestion
+    - heading: infants
+      benefits: >-
+        * Alignment after birth
+
+        * Alleviate growing pains
+
+        * Reduce excessive crying
+
+        * Helps gas pain + constipation
+
+        * Treat nursing issues
+
+        * Proper development
+    - heading: kiddos
+      benefits: >-
+        * Ease colic symptoms
+
+        * Address constipation
+
+        * Prevent ear infections
+
+        * Boost immune system function
+
+        * Improve sleep
+
+        * Coordination
+    - heading: adults
+      benefits: >-
+        * Improve energy + focus
+
+        * Manage stress + moods
+
+        * Reduce inflammation
+
+        * Pain relief
+
+        * Added mobility
+
+        * Sciatica treatment
 ---

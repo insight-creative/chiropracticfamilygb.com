@@ -6,17 +6,4 @@
         {{ .Content  }}
     </div>
 </div>
-
-{{ if .Params.hero.enabled }}
-{{ with .Params.hero.content }}
-
-    {{ range .items }}
-
-        <li>{{ .item }}</li>
-
-    {{ end }}
-
-{{ end }}
-{{ end }}
-
 {{ end }}
