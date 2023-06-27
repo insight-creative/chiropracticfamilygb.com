@@ -1,8 +1,9 @@
-.services {
+.services__outter-wrapper {
 
-  &_content-wrapper {
-
-  }
+   @include breakpoint(md) {
+    display: flex;
+    justify-content: center;
+   }
 }
 
 .parent-page-services .hero__image-box-left {
