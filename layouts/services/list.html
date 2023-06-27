@@ -2,7 +2,7 @@
 {{ partial "hero" . }}
 {{ if .Params.who_we_service.enabled }}
   {{ with .Params.who_we_service }}
-  <div class="services__outter-wrapper wrapper-lg gap-md block-sm">
+  <div class="services__outter-wrapper wrapper-lg gap-md block-md">
     {{ range .content }}
       <div class="services__content-wrapper">
         <h2>{{ .heading }}</h2>

@@ -2,11 +2,11 @@
   <div class="information-block__image-box-left">
     <img src="{{ .image.image_url }}" alt="">
   </div>
-  <div class="information-block__outter-wrapper wrapper-xs block-sm">
+  <div class="information-block__outter-wrapper wrapper-xs block-md">
     {{ if .heading }}
-      <h2 class="shift-down mt-5">{{ .heading }}</h2>
+      <h2>{{ .heading }}</h2>
     {{ end }}
-    <div class="flow mt-7">
+    <div class="flow">
       {{ range .content }}
       <div class="information-block__content">
         <h2 class="shift-down">{{ .heading }}</h2>
