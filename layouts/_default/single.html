@@ -1,9 +1,10 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ partial "breadcrumbs" . }}
 <div class="block">
     <div class="wrapper-sm flow">
         {{ .Content  }}
     </div>
 </div>
+{{ partial "full-width-contact-form" . }}
+{{ partial "full-width-map" . }}
 {{ end }}
