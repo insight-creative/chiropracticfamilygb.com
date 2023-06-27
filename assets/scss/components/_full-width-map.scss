@@ -5,7 +5,15 @@
 
     iframe {
       width: 100%;
-      height: clamp(300px, 30vw, 450px);
+      height: 300px;
+
+      @include breakpoint(md) {
+        height: 350px;
+      }
+
+      @include breakpoint(lg) {
+        height: 450px;
+      }
     }
   }
 }
