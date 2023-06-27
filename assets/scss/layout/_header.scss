@@ -255,7 +255,7 @@
   text-transform: uppercase;
 
   &::after {
-    background: $secondary-color;
+    background: $primary-color;
     height: 3px;
     width: 100%;
     transform: scaleX(0);
