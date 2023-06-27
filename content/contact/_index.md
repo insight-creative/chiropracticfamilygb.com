@@ -12,7 +12,7 @@ seo:
 hero: 
   enabled: true
   heading: Contact
-  body: Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services.
+  body: 
   button:
     enabled: false
     open_in_new_tab: true
@@ -24,3 +24,5 @@ hero:
     button_url: #
     button_text: Contact Us
 ---
+
+Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services.
