@@ -1,6 +1,12 @@
 .social {
-  margin: 1.5rem 0 0;
   padding: 0;
+
+  &__icon {
+
+    svg {
+      fill: $white;
+    }
+  }
 
   li {
     list-style-type: none;

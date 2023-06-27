@@ -42,9 +42,10 @@
     &__nav {
       margin: 0;
       padding: 0;
-
+      
       @include breakpoint(sm) {
         flex-direction: row;
+        margin-right: $ic-1000;
       }
     }
 
@@ -55,6 +56,18 @@
       @include breakpoint(md)  {
         margin: 0;
         margin-left: $ic--100;
+      }
+    }
+
+    &__nav-item {
+
+      &::before {
+        
+        @include breakpoint(md) {
+          content: "| ";
+          margin-right: 5px;
+          margin-left: -5px;
+        }
       }
     }
 
