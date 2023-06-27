@@ -2,7 +2,7 @@
 {{ partial "hero" . }}
 {{ if .Params.who_we_service.enabled }}
   {{ with .Params.who_we_service }}
-  <div class="services__outter-wrapper wrapper-lg gap-md">
+  <div class="services__outter-wrapper wrapper-lg gap-md block-sm">
     {{ range .content }}
       <div class="services__content-wrapper">
         <h2>{{ .heading }}</h2>
@@ -10,6 +10,11 @@
       </div>
       {{ end }}
     </div>
+  {{ end }}
+{{ end }}
+{{ if .Params.block.enabled }}
+  {{ with .Params.block }}
+  {{ partial "information-block" . }}
   {{ end }}
 {{ end }}
 {{ partial "full-width-contact-form" . }}

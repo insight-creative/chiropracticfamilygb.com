@@ -3,19 +3,19 @@
 
 {{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
-{{ partial "intro" . }}
+  {{ partial "intro" . }}
 {{ end }}
 {{ end }}
 
-{{ if .Params.our_services_block.enabled }}
-{{ with.Params.our_services_block }}
-{{ partial "services-block" . }}
+{{ if .Params.block.enabled }}
+{{ with.Params.block }}
+  {{ partial "information-block" . }}
 {{ end }}
 {{ end }}
 
 {{ if .Params.testimonial_block.enabled }}
 {{ with .Params.testimonial_block }}
-{{ partial "testimonial-block" . }}
+  {{ partial "testimonial-block" . }}
 {{ end }}
 {{ end }}
 

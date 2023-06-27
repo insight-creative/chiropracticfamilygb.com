@@ -29,8 +29,7 @@ intro:
     enabled: true
     button_url: /about/
     button_text: Learn More About Us
-our_services_block:
-  heading: Our Services
+block:
   enabled: true
   content:
     - heading: Our Mission to Your Wellness
