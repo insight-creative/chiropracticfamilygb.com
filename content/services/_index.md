@@ -103,8 +103,8 @@ block:
     button_text: 
   image:
     image_url: /uploads/back-exam-group.jpg
-    image_alt: Image of a toddler
+    image_alt: Image of a patient getting a back exam
   image1:
     image_url: /uploads/back-massage-group.jpg
-    image_alt: Image of a pregnant woman
+    image_alt: Image of a patient getting a back massage
 ---

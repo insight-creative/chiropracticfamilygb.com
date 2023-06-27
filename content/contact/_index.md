@@ -12,7 +12,7 @@ seo:
 hero: 
   enabled: true
   heading: Contact
-  body: 
+  body: Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services.
   button:
     enabled: false
     open_in_new_tab: true
@@ -23,6 +23,10 @@ hero:
     open_in_new_tab: false
     button_url: #
     button_text: Contact Us
+  image:
+    image_url: /uploads/artistic-branch.jpg
+    image_alt:  Artistic Flower Stem
+  image1:
+    image_url: /uploads/stock-baby-image.jpg
+    image_alt:  Stock Image Baby
 ---
-
-Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services.

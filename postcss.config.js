@@ -26,6 +26,7 @@ module.exports = {
         'parent-page-contact',
         'parent-page-blog',
         'parent-page-services',
+        'parent-page-join-waitlist',
         'active-button',
         'position-open',
         'list-open',

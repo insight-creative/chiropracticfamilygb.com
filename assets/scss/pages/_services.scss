@@ -9,12 +9,18 @@
    }
 }
 
-.parent-page-services .hero__image-box-left {
+.parent-page-services .hero__image-box-left,
+.page-about .hero__image-box-left,
+.page-contact .hero__image-box-left,
+.parent-page-join-waitlist .hero__image-box-left {
   top: -35px;
   left: -105px;
 }
 
-.parent-page-services .hero__image-box-right {
+.parent-page-services .hero__image-box-right,
+.page-about .hero__image-box-right,
+.page-contact .hero__image-box-right,
+.parent-page-join-waitlist .hero__image-box-right {
   top: 0;
   right: -65px;
 }
