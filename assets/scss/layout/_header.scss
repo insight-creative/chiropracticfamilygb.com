@@ -257,7 +257,7 @@
   &::before {
     display: block;
     content: attr(text);
-    font-weight: bold;
+    font-weight: 700;
     height: 0;
     overflow: hidden;
     visibility: hidden;
@@ -273,7 +273,7 @@
     bottom: 3px;
     left: 0;
     content: "";
-    // transition: transform $transition;
+    transition: transform $transition;
   }
 
   @include breakpoint(md) {
@@ -285,9 +285,8 @@
     
     &:hover,
     &:focus {
-      font-weight:bold;
+      font-weight:700;
       color: $black;
-      text-transform: uppercase;
 
       // &::after {
       //   transform: scaleX(1);
