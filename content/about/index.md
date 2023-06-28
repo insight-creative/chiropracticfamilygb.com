@@ -11,8 +11,8 @@ seo:
   featured_image:
 hero: 
   enabled: true
-  heading: About
-  body: Chiropractic Family is a new state of the art chiropractic clinic in the Green Bay area. Dr. Emily recently graduated from Palmer College of Chiropractic. At Chiropractic Family it is our mission to achieve optimal health by empowering families to take control of their health. Emily has a passion for families and helping brand new babies to those in their golden years. 
+  heading: our mission to your wellness
+  body: At Chiropractic Family, <strong>our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.</strong> We are dedicated to educating and empowering our patients, encouraging them to take an active role in their own health. <strong>Trust, respect, and outstanding service</strong> are the pillars of our care.
   button:
     enabled: true
     open_in_new_tab: true
