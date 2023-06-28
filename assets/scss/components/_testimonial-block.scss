@@ -3,7 +3,6 @@
   &__wrapper {
 
     @include breakpoint(md) {
-      display: flex;
       gap: $ic-400;
     }
 
