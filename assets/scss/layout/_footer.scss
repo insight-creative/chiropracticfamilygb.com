@@ -50,6 +50,7 @@
     }
 
     &__list-item {
+      position: relative;
       list-style-type: none;
       margin: $ic-100;
 
@@ -57,16 +58,14 @@
         margin: 0;
         margin-left: $ic--100;
       }
-    }
-
-    &__nav-item {
 
       &::before {
         
         @include breakpoint(md) {
-          content: "| ";
-          margin-right: 5px;
-          margin-left: -5px;
+          position: absolute;
+          content: "|";
+          margin-left: -8px;
+          top: 0;
         }
       }
     }
