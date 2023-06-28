@@ -1,10 +1,12 @@
 <section aria-labelledby="{{ .heading | urlize }}" class="testimonial-block block-md">
   <div class="testimonial-block__wrapper wrapper-lg">
-    {{ range .quotes }}
-    <blockquote class="quote" style="background-image: url('{{ .image.image_url }}')">
-      <q>{{ .quote | markdownify }}</q>
-        <cite>{{ .quoter | markdownify }}</cite>
-    </blockquote>
-    {{ end }}
+    <div class="columns gap-lg">
+      {{ range .quotes }}
+      <blockquote class="quote" style="background-image: url('{{ .image.image_url }}')">
+        <q>{{ .quote | markdownify }}</q>
+          <cite>{{ .quoter | markdownify }}</cite>
+      </blockquote>
+      {{ end }}
+    </div>
   </div>
 </section>

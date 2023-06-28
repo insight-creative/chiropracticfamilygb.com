@@ -26,15 +26,15 @@
     
       @include breakpoint(md) {
         font-size: $ic-100;
-        padding: 15px 30px 30px 60px;
+        padding: 75px 30px 30px 60px;
         max-width: 480px;
         min-height: 370px;
       }
 
       @include breakpoint(lg) {
-        padding: 75px 30px 30px 60px;
-        max-width: 480px;
-        min-height: 370px;
+        // padding: 75px 30px 30px 60px;
+        // max-width: 480px;
+        // min-height: 370px;
       }
 
       &:before {
