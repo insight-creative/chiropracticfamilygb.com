@@ -6,8 +6,8 @@ menu:
   footer:
     weight: 4
 seo:
-  page_title:
-  meta_description:
+  page_title: Contact
+  meta_description: Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services.
   featured_image:
 hero: 
   enabled: true
