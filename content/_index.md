@@ -51,26 +51,4 @@ block:
   image1:
     image_url: /uploads/pregnant-group.jpg
     image_alt: Image of a pregnant woman
-testimonial_block:
-  enabled: true
-  heading: Testimonials
-  quotes:
-    - quote:
-        <strong>Dr. Emily is the best!</strong> She was very in tune to me and knew exactly what needed to be adjusted. She went above and beyond to make sure that I could get back to the gym and enjoy working out pain free and not taking time off to heal."
-      quoter: Cindy
-      image:
-        image_url: /uploads/quote-bubble-1.png
-        image_alt: Blob shape for quote
-    - quote: 
-        I have been going to chiropractors since I was 16 and in that time I have only had one chiropractor successfully adjust my neck. After seeing Dr. Emily she was able to successfully adjust me and my neck. <strong>I have never felt better!</strong> She is amazing!!"
-      quoter: Mike
-      image:
-        image_url: /uploads/quote-bubble-2.png
-        image_alt: Blob shape for quote
-    - quote: 
-        I can never thank Dr. Emily enough for being the first person to listen to me about my pain in my back, and working until she found a solution. 3 years of chronic pain and SHE figured it out."
-      quoter: Ashlee
-      image:
-        image_url: /uploads/quote-bubble-1.png
-        image_alt: Blob shape for quote
 ---

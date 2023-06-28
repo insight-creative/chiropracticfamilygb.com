@@ -5,6 +5,11 @@
         {{ .Content  }}
     </div>
 </div>
+{{ if .Site.Data.global_partials.testimonial_block.enabled }}
+{{ with .Site.Data.global_partials.testimonial_block }}
+  {{ partial "testimonial-block" . }}
+{{ end }}
+{{ end }}
 {{ partial "full-width-contact-form" . }}
 {{ partial "full-width-map" . }}
 {{ end }}

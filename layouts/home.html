@@ -13,8 +13,8 @@
 {{ end }}
 {{ end }}
 
-{{ if .Params.testimonial_block.enabled }}
-{{ with .Params.testimonial_block }}
+{{ if .Site.Data.global_partials.testimonial_block.enabled }}
+{{ with .Site.Data.global_partials.testimonial_block }}
   {{ partial "testimonial-block" . }}
 {{ end }}
 {{ end }}
