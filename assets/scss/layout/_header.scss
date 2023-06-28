@@ -254,17 +254,26 @@
 .header__nav-list-link {
   text-transform: uppercase;
 
+  &::before {
+    display: block;
+    content: attr(text);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
   &::after {
-    background: $primary-color;
-    height: 3px;
+    background: $secondary-color;
+    height: 2px;
     width: 100%;
-    transform: scaleX(0);
-    transform-origin: top right;
+    // transform: scaleX(0);
+    // transform-origin: top right;
     position: absolute;
-    bottom: 0;
+    bottom: 3px;
     left: 0;
     content: "";
-    transition: transform $transition;
+    // transition: transform $transition;
   }
 
   @include breakpoint(md) {
@@ -276,12 +285,14 @@
     
     &:hover,
     &:focus {
+      font-weight:bold;
       color: $black;
+      text-transform: uppercase;
 
-      &::after {
-        transform: scaleX(1);
-        transform-origin: top right;
-      }
+      // &::after {
+      //   transform: scaleX(1);
+      //   transform-origin: top right;
+      // }
 
       .header__sub-menu-indicator {
         transform: rotate(180deg);
