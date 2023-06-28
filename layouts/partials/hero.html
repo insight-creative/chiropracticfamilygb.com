@@ -6,7 +6,9 @@
   <div class="hero__outter-wrapper wrapper-xs flex flex-column">
     <div class="hero__content flow">
       <h1 class="shift-down" id="hero-heading">{{ .Params.hero.heading | safeHTML }}</h1>
-      <h2 class="primary-font fw-500">{{ .Params.hero.sub_heading}}</h2>
+      {{ if .Params.hero.sub_heading }}
+        <h2 class="primary-font fw-500">{{ .Params.hero.sub_heading}}</h2>
+      {{ end }}
       <p>{{ .Params.hero.body | markdownify}}</p>
     </div>
   </div>
