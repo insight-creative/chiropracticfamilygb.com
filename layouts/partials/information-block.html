@@ -1,10 +1,10 @@
-<section aria-labelledby="What to Expect" class="information-block">
+<section aria-labelledby="{{ .heading | urlize }}" class="information-block">
   <div class="information-block__image-box-left">
     <img src="{{ .image.image_url }}" alt="">
   </div>
   <div class="information-block__outter-wrapper wrapper-xs block-md">
     {{ if .heading }}
-      <h2>{{ .heading }}</h2>
+      <h2 id="{{ .heading | urlize | plainify}}">{{ .heading }}</h2>
     {{ end }}
     <div class="flow">
       {{ range .content }}
