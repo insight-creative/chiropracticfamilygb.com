@@ -9,7 +9,7 @@
       {{ if .Params.hero.sub_heading }}
         <h2 class="primary-font fw-500">{{ .Params.hero.sub_heading}}</h2>
       {{ end }}
-      <p>{{ .Params.hero.body | markdownify}}</p>
+      {{ .Params.hero.body | markdownify}}
     </div>
   </div>
   <div class="hero__image-box-right">

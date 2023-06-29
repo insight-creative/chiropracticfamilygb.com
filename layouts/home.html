@@ -1,25 +1,20 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-
 {{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
   {{ partial "intro" . }}
 {{ end }}
 {{ end }}
-
 {{ if .Params.block.enabled }}
 {{ with.Params.block }}
   {{ partial "information-block" . }}
 {{ end }}
 {{ end }}
-
 {{ if .Site.Data.global_partials.testimonial_block.enabled }}
 {{ with .Site.Data.global_partials.testimonial_block }}
   {{ partial "testimonial-block" . }}
 {{ end }}
 {{ end }}
-
 {{ partial "full-width-contact-form" . }}
 {{ partial "full-width-map" .}}
-
 {{ end }}
