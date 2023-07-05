@@ -22,7 +22,7 @@ hero:
     image_url: /uploads/artistic-branch.jpg
     image_alt:  Artistic Flower Stem
   image1:
-    image_url: /uploads/stock-baby-image.jpg
+    image_url: /uploads/child-patient.jpg
     image_alt:  Stock Image Baby
 ---
 
