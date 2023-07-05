@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ if .Params.intro.enabled }}
-{{ with .Params.intro }}
+{{ if .Site.Data.global_partials.intro.enabled }}
+{{ with .Site.Data.global_partials.intro }}
   {{ partial "intro" . }}
 {{ end }}
 {{ end }}

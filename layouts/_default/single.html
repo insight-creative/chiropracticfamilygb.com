@@ -1,7 +1,12 @@
 {{ define "main" }}
 {{ partial "hero" . }}
+{{ if .Site.Data.global_partials.intro.enabled }}
+{{ with .Site.Data.global_partials.intro }}
+  {{ partial "intro" . }}
+{{ end }}
+{{ end }}
 {{ if .Content }}
-  <div class="about-content wrapper-xs flow">
+  <div class="about-content wrapper-xs flow block">
     {{ .Content  }}
   </div>
 {{ end }}

@@ -18,18 +18,6 @@ hero:
   image1:
     image_url: /uploads/artistic-spine-group.jpg
     image_alt: Artistic spine
-intro:
-  enabled: true
-  heading: Meet Dr. Emily Radka
-  body: 
-    Dr. Emily, born and raised in West De Pere, WI, always knew she wanted to be in the healthcare field. She completed her prerequisite courses in human biology at the University of Wisconsin - Green Bay before pursuing her Doctorate in Chiropractic and Bachelor’s Degree of Chiropractic at Palmer College of Chiropractic. With extensive clinical experience serving patients of all ages, from infants to seniors, Dr. Emily is committed to providing <strong>compassionate and personalized chiropractic care.</strong>
-  image:
-    image_url: /uploads/dr-emily-radka.jpg
-    image_alt: Headshot of Dr. Emily Radka
-  button:
-    enabled: true
-    button_url: /about/
-    button_text: Learn More About Us
 block:
   enabled: true
   content:
