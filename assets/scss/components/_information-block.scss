@@ -2,21 +2,22 @@
 
   &__outter-wrapper {
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: $wrapper-radius;
   }
 
   &__image-box-left {
       position: absolute;
       z-index: -1;
-      max-width: clamp(200px, 50%, 500px);
-      top: 1380px;
+      max-width: clamp(200px, 50%, 545px);
+      top: 1600px;
       left: -47px;
   }
 
   &__image-box-right {
       position: absolute;
       z-index: -1;
-      max-width: clamp(200px, 50%, 500px);
-      top: 825px;
-      right: -115px;
+      max-width: clamp(200px, 50%, 545px);
+      top: 1050px;
+      right: -140px;
   }
 }

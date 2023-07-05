@@ -15,7 +15,7 @@ testimonial_block:
         image_url: /uploads/quote-bubble-2.png
         image_alt: Blob shape for quote
     - quote: 
-        I can never thank Dr. Emily enough for being the first person to listen to me about my pain in my back, and working until she found a solution. 3 years of chronic pain and SHE figured it out."
+        I can never thank Dr. Emily enough for being the first person to listen to me about my pain in my back, and working until she found a solution. <strong>3 years of chronic pain and SHE figured it out.</strong>"
       quoter: Ashlee
       image:
         image_url: /uploads/quote-bubble-1.png

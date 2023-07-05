@@ -253,6 +253,7 @@
 
 .header__nav-list-link {
   text-transform: uppercase;
+  letter-spacing: 5px;
 
   &::after {
     background: $secondary-color;

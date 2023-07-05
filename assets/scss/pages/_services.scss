@@ -1,5 +1,6 @@
 .services__outter-wrapper {
   background-color: rgba(255, 255, 255, 0.7);
+  border-radius: $wrapper-radius;
 
   margin-top: clamp(-2rem, 10vw, -4rem);
 
@@ -13,7 +14,7 @@
 .page-about .hero__image-box-left,
 .page-contact .hero__image-box-left,
 .parent-page-join-waitlist .hero__image-box-left {
-  top: -35px;
+  top: 50px;
   left: -105px;
 }
 
@@ -21,8 +22,9 @@
 .page-about .hero__image-box-right,
 .page-contact .hero__image-box-right,
 .parent-page-join-waitlist .hero__image-box-right {
-  top: 0;
+  top: 65px;
   right: -65px;
+  max-width: clamp(150px,50%,365px);
 }
 
 .parent-page-services .information-block__image-box-left {

@@ -13,8 +13,8 @@ $btn-hover: #32473f;
 $primary-font: "Arboria", serif;
 $secondary-font: "Yeseva One", sans-serif;
 
-$mobile-header: 110px;
-$desktop-header: 150px;
+$mobile-header: 80px;
+$desktop-header: 62px;
 
 // Scale and rhythm based on a major third
 $scale: 1.25;
@@ -41,6 +41,8 @@ $measure-long: 90ch;
 $transition: .3s ease-in-out;
 
 $radius: 5px;
+
+$wrapper-radius: 30px;
 
 /* yeseva-one-regular - latin */
 @font-face {

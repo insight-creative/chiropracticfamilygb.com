@@ -1,13 +1,13 @@
 .hero {
   position: relative;
-  height: 300px;
-  
-  @include breakpoint(md) {
-    height: 400px; 
-  }
 
   &__outter-wrapper {
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: $wrapper-radius;
+
+    // @include breakpoint(sm) {
+    //   border-radius: $wrapper-radius;
+    // }
   }
   
   &__image-box-left {
@@ -15,15 +15,15 @@
     z-index: -1;
     max-width: clamp(200px, 50%, 545px);
     height: auto;
-    top: -165px;
+    top: -75px;
     left: -120px;
   }
 
   &__image-box-right {
     position: absolute;
     z-index: -1;
-    max-width: clamp(150px, 50%, 570px);
-    top: 155px;
+    max-width: clamp(150px, 50%, 600px);
+    top: 250px;
     right: -90px;
   }
 }

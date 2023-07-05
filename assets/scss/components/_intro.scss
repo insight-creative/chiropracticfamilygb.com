@@ -1,12 +1,12 @@
 .intro {
-  margin-top: $ic-800;
 
-  @include breakpoint(sm) {
-    margin-top: 0;
-  }
+  // @include breakpoint(sm) {
+  //   margin-top: 0;
+  // }
 
   &__wrapper {
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: $wrapper-radius;
   }
 
   &__image {
@@ -18,21 +18,5 @@
       z-index: -1;
       left: 5%;
     }
-
-    h4 {
-      display: none;
-
-      @include breakpoint(xl) {
-        display: block;
-        text-align: center;
-        font-family: $primary-font;
-        color: $tertiary-color;
-        margin-top: 1rem;
-      }
-    }
-  }
-
-  &__content {
-    margin-top: $ic-200;
   }
 }

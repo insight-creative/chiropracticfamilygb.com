@@ -85,7 +85,7 @@ who_we_service:
 
         * Sciatica treatment
 block:
-  heading: What to Expect
+  heading: what to expect
   enabled: true
   content:
     - heading: "Consultation and Examination:"

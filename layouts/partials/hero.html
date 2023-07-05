@@ -1,5 +1,5 @@
 {{ $heroClass := lower .Page.Title }}
-<section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero">
+<section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero block">
   <div class="hero__image-box-left">
     <img class="img-neck-adjustment" src="{{ .Params.hero.image.image_url }}" alt="{{ .Params.hero.image.image_alt }}">
   </div>
