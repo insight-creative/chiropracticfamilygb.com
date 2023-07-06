@@ -2,6 +2,10 @@
     height: 400px;
 }
 
-// .parent-page-contact .hero .contact-hero {
-//     padding: clamp(10.9rem, 10%, 12.9rem);
-// }
+.parent-page-contact {
+    .hero {
+
+        padding: clamp(5rem, 25%, 11rem) 0;
+
+    }
+}
