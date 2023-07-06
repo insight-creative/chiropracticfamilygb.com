@@ -1,10 +1,5 @@
 .intro {
 
-  &__wrapper {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: $wrapper-radius;
-  }
-
   &__image {
     max-width: clamp(200px, 50%, 300px);
     margin: auto;

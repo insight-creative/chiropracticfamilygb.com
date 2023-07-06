@@ -6,8 +6,10 @@
 {{ end }}
 {{ end }}
 {{ if .Content }}
-  <div class="about-content wrapper-xs flow block">
-    {{ .Content  }}
+  <div class="wrapper-xs flow block">
+    <div class="bg-transparent">
+      {{ .Content  }}
+    </div>
   </div>
 {{ end }}
 {{ if .Site.Data.global_partials.testimonial_block.enabled }}
