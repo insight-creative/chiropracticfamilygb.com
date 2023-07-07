@@ -2,7 +2,7 @@
   <div class="information-block__image-box-left">
     <img src="{{ .image.image_url }}" alt="">
   </div>
-  <div class="information-block__outter-wrapper bg-transparent wrapper-xs">
+  <div class="information-block__outter-wrapper bg-transparent wrapper-xs pb-1">
     {{ if .heading }}
       <h2 id="{{ .heading | urlize | plainify}}">{{ .heading }}</h2>
     {{ end }}
