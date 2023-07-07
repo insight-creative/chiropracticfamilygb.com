@@ -11,7 +11,7 @@ hero:
     We’re grateful to have you here at Chiropractic Family, a place where healing happens and your wellness journey begins. Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services. We invite you to take a step towards better health.
 
 
-    <strong>Welcome to our family!</strong>
+    <span class="h4"><strong>Welcome to our family!</strong></span>
   image:
     image_url: /uploads/neck-adjustment-group.jpg
     image_alt: Male patient getting his neck readjusted
