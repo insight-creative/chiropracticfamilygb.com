@@ -1,5 +1,6 @@
 <section aria-labelledby="{{ .heading | urlize }}" class="testimonial-block block">
   <div class="testimonial-block__wrapper wrapper-lg">
+    <h2 class="visually-hidden">Testimonials</h2>
     <div class="columns gap-lg">
       {{ range .quotes }}
       <blockquote class="quote" style="background-image: url('{{ .image.image_url }}')">
