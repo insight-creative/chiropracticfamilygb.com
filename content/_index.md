@@ -14,7 +14,7 @@ hero:
 
     <span class="h4"><strong>Welcome to our family!</strong></span>
   image:
-    image_url: /uploads/neck-adjustment-group.jpg
+    image_url: /neck-adjustment-group_bltcoh.jpg
     image_alt: Male patient getting his neck readjusted
   image1:
     image_url: /uploads/artistic-spine-group.jpg
