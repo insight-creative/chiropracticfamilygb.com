@@ -19,10 +19,10 @@ hero:
     button_url: #
     button_text: Visit Us
   image:
-    image_url: /uploads/artistic-branch.jpg
+    image_url: /artistic-branch_l1qtz9.jpg
     image_alt:  Artistic Flower Stem
   image1:
-    image_url: /uploads/child-patient.jpg
+    image_url: /child-patient_rbh85l.jpg
     image_alt:  Stock Image Baby
 intro:
   enabled: true
@@ -30,7 +30,7 @@ intro:
   body:
     Dr. Emily, born and raised in West De Pere, WI, always knew she wanted to be in the healthcare field. She completed her prerequisite courses in human biology at the University of Wisconsin - Green Bay before pursuing her Doctorate in Chiropractic and Bachelor’s Degree of Chiropractic at Palmer College of Chiropractic. With extensive clinical experience serving patients of all ages, from infants to seniors, Dr. Emily is committed to providing <strong>compassionate and personalized chiropractic care.</strong>
   image:
-    image_url: /uploads/dr-emily-radka.jpg
+    image_url: /dr-emily-radka_wljrbl.jpg
     image_alt: Headshot of Dr. Emily Radka
   button:
     enabled: false

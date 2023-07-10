@@ -16,26 +16,27 @@
 .parent-page-join-waitlist .hero__image-box-left {
   top: 50px;
   left: -105px;
+  width: clamp(150px,50%,350px);
 }
 
 .parent-page-services .hero__image-box-right,
 .page-about .hero__image-box-right,
 .page-contact .hero__image-box-right,
 .parent-page-join-waitlist .hero__image-box-right {
-  top: 100px;
+  top: 70px;
   right: -65px;
-  max-width: clamp(150px,50%,365px);
+  width: clamp(150px,50%,365px);
 }
 
 .parent-page-services .information-block__image-box-left {
-  max-width: clamp(200px, 50%, 480px);
-  top: 830px;
+  width: clamp(200px, 50%, 480px);
+  top: 850px;
   left: -140px;
 }
 
 .parent-page-services .information-block__image-box-right {
-  max-width: clamp(200px, 50%, 550px);
-  top: 820px;
+  width: clamp(200px, 50%, 550px);
+  top: 900px;
   right: -125px;
 }
 

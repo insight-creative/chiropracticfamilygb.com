@@ -24,10 +24,10 @@ hero:
     button_url: #
     button_text: Visit Us
   image:
-    image_url: /uploads/artistic-branch.jpg
+    image_url: /artistic-branch_l1qtz9.jpg
     image_alt: Artistic Branch
   image1:
-    image_url: /uploads/stock-baby-image.jpg
+    image_url: /stock-baby-image_xfoebd.jpg
     image_alt:  Stock Image Baby
 who_we_service:
   enabled: true
@@ -102,9 +102,9 @@ block:
     button_url: #
     button_text: 
   image:
-    image_url: /uploads/back-exam-group.jpg
+    image_url: /back-exam-group_uswt0w.jpg
     image_alt: Image of a patient getting a back exam
   image1:
-    image_url: /uploads/back-massage-group.jpg
+    image_url: /back-massage-group_q9tv8w.jpg
     image_alt: Image of a patient getting a back massage
 ---

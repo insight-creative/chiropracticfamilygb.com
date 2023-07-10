@@ -24,9 +24,9 @@ hero:
     button_url: #
     button_text: Contact Us
   image:
-    image_url: /uploads/artistic-branch.jpg
+    image_url: /artistic-branch_l1qtz9.jpg
     image_alt:  Artistic Flower Stem
   image1:
-    image_url: /uploads/stock-baby-image.jpg
+    image_url: /stock-baby-image_xfoebd.jpg
     image_alt:  Stock Image Baby
 ---

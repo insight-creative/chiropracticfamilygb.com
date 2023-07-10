@@ -1,6 +1,6 @@
 <section aria-labelledby="{{ .heading | urlize }}" class="information-block block">
   <div class="information-block__image-box-left">
-    <img src="{{ .image.image_url }}" alt="">
+    {{ partial "responsive-image" . }}
   </div>
   <div class="information-block__outter-wrapper bg-transparent wrapper-xs pb-1">
     {{ if .heading }}
@@ -21,6 +21,6 @@
     </div>
   </div>
   <div class="information-block__image-box-right">
-    <img src="{{ .image1.image_url }}" alt="">
+    {{ partial "second-responsive-image" . }}
   </div>
 </section>

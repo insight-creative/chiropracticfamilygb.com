@@ -15,6 +15,8 @@
     </div>
   </div>
   <div class="hero__image-box-right">
-    <img src="{{ .Params.hero.image1.image_url }}" alt="">
+    {{ with .Params.hero }}
+      {{ partial "second-responsive-image" . }}
+    {{ end }}
   </div>
 </section>
