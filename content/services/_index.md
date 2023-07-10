@@ -24,10 +24,10 @@ hero:
     button_url: #
     button_text: Visit Us
   image:
-    image_url: /artistic-branch_l1qtz9.jpg
+    image_url: /uploads/artistic-branch.jpg
     image_alt: Artistic Branch
   image1:
-    image_url: /stock-baby-image_xfoebd.jpg
+    image_url: /uploads/stock-baby-image.jpg
     image_alt:  Stock Image Baby
 who_we_service:
   enabled: true

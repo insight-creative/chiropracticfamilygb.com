@@ -14,10 +14,10 @@ hero:
 
     <span class="h4"><strong>Welcome to our family!</strong></span>
   image:
-    image_url: /neck-adjustment-group_bltcoh.jpg
+    image_url: /uploads/neck-adjustment-group.jpg
     image_alt: Male patient getting his neck readjusted
   image1:
-    image_url: /artistic-spine-group_eynpn0.jpg
+    image_url: /uploads/artistic-spine-group.jpg
     image_alt: Artistic spine
 intro:
   enabled: true
@@ -25,7 +25,7 @@ intro:
   body: 
     Dr. Emily, born and raised in West De Pere, WI, always knew she wanted to be in the healthcare field. With extensive clinical experience serving patients of all ages, from infants to seniors, Dr. Emily is committed to providing <strong>compassionate and personalized chiropractic care.</strong>
   image:
-    image_url: /dr-emily-radka_wljrbl.jpg
+    image_url: /uploads/dr-emily-radka.jpg
     image_alt: Headshot of Dr. Emily Radka
   button:
     enabled: true
@@ -48,9 +48,9 @@ block:
     button_url: /services/
     button_text: Our Services
   image:
-    image_url: /toddler-group_lxx5ad.jpg
+    image_url: /uploads/toddler-group.jpg
     image_alt: Image of a toddler
   image1:
-    image_url: /pregnant-group_xlymy0.jpg
+    image_url: /uploads/pregnant-group.jpg
     image_alt: Image of a pregnant woman
 ---

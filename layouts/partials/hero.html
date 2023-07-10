@@ -1,9 +1,7 @@
 {{ $heroClass := lower .Page.Title }}
 <section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero block">
   <div class="hero__image-box-left">
-    {{ with .Params.hero }}
-      {{ partial "responsive-image" . }}
-    {{ end }}
+    <img src="{{ .Params.hero.image.image_url }}" alt="">
   </div>
   <div class="hero__outter-wrapper bg-transparent wrapper-xs flex flex-column">
     <div class="hero__content flow">
@@ -15,8 +13,6 @@
     </div>
   </div>
   <div class="hero__image-box-right">
-    {{ with .Params.hero }}
-      {{ partial "second-responsive-image" . }}
-    {{ end }}
+    <img src="{{ .Params.hero.image1.image_url }}" alt="">
   </div>
 </section>
