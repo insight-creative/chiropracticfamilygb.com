@@ -6,7 +6,7 @@ menu:
   footer:
     weight: 1
 seo:
-  page_title:
+  page_title: Servies
   meta_description:
   featured_image:
 hero: 
