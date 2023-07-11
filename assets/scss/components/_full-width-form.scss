@@ -57,7 +57,7 @@
 .image-bottom-right {
   position: absolute;
   right: -15px;
-  max-width: 180px;
+  width: 180px;
   bottom: 300px;
 
   @include breakpoint(md) {
