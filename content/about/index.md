@@ -23,7 +23,7 @@ hero:
     image_alt:  Artistic Flower Stem
   image1:
     image_url: /child-patient_rbh85l.jpg
-    image_alt:  Stock Image Baby
+    image_alt:  Toddler patient getting back adjustment
 intro:
   enabled: true
   heading: Meet Dr. Emily Radka
