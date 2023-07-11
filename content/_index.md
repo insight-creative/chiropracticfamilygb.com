@@ -39,8 +39,8 @@ block:
         At Chiropractic Family, <strong>our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.</strong> We are dedicated to educating and empowering our patients, encouraging them to take an active role in their own health. <strong>Trust, respect, and outstanding service</strong> are the pillars of our care.
     - heading: Feel Your Best and Thrive
       body: 
-        Chiropractic adjustments are a safe and effective way to reduce headaches, muscle aches and pains, mobility issues, back pain, neck soreness, poor posture, joint pain, sciatica, improve balance and promote overall health and wellness. Dr. Emily can help address all these issues and more non-invasively and without medications.
-    - heading: At Any Stage of Life, We Got You
+        Chiropractic adjustments are a safe and effective way to reduce headaches, muscle aches and pains, mobility issues, back pain, neck soreness, poor posture, joint pain, sciatica, improve balance and promote overall health and wellness. Dr. Emily can help address all these issues and more, non-invasively and without medications.
+    - heading: At Any Stage of Life, We've Got You
       body: 
         Dr. Emily offers safe and effective chiropractic adjustments for patients of all ages. With training in diversified, Thompson, Activator, and more techniques, she tailors each treatment to meet your specific needs. At Chiropractic Family, we welcome patients from infants to the elderly, ensuring comprehensive care for the whole family.
   button: 

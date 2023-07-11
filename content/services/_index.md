@@ -17,7 +17,7 @@ hero:
     Dr. Emily provides safe and effective chiropractic adjustments for all ages. Dr. Emily has training in diversified, Thompson, and Activator, as well as many more techniques.
 
 
-    At Chiropractic Family we provide services to those who are infants to elderly.
+    At Chiropractic Family, we provide services to those who are infants to elderly.
   button:
     enabled: true
     open_in_new_tab: true
@@ -34,7 +34,7 @@ who_we_service:
   content:
     - heading: pregnancy
       benefits: >-
-        * Reduce labor average labor times
+        * Reduce average labor times
 
         * Increase comfort during pregnancy
 
@@ -90,13 +90,13 @@ block:
   content:
     - heading: "Consultation and Examination:"
       body: 
-        During your first visit Dr. Emily will take a detailed health history and discuss your health concerns, goals, and reason for your visit. After the initial consultation, we will perform a comprehensive chiropractic exam.
+        During your first visit, Dr. Emily will take a detailed health history and discuss your health concerns, goals, and reason for your visit. After the initial consultation, we will perform a comprehensive chiropractic exam.
     - heading: "Report of findings:"
       body: 
         Your report of findings is scheduled after your initial consultation. This allows the doctor to have time to interpret and understand your chiropractic exam and come up with a treatment plan specifically for you. The report of findings is a detailed report of what you need to help solve the problem that brought you into our office. With your individual care in mind, we are hoping to be the solution to your concerns.
     - heading: "Continuing care:"
       body: 
-        Your adjustments will be given by Dr. Emily, and anything else that she sees necessary to help you on your healing journey. Stretching and exercises may be recommended to help you feel great. Please ask questions along the way! We are excited to be able to be part of your health journey.
+        Your adjustments will be given by Dr. Emily, and anything else that she sees necessary to help you on your healing journey. Stretching and exercises may be recommended to help you feel great. Please ask questions along the way! We are excited to be part of your health journey.
   button: 
     enabled: false
     button_url: #
