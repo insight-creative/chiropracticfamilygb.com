@@ -6,7 +6,7 @@ menu:
   footer:
     weight: 2
 seo:
-  page_title: Our Mission to Your Wellness
+  page_title: About
   meta_description: At Chiropractic Family, our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.
   featured_image:
 hero:
