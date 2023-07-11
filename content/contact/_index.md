@@ -7,12 +7,12 @@ menu:
     weight: 4
 seo:
   page_title: Contact
-  meta_description: Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services.
+  meta_description: Our goal is to help you achieve optimal health and wellness through safe, gentle and effective chiropractic services.
   featured_image:
 hero: 
   enabled: true
   heading: Contact
-  body: Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services.
+  body: Our goal is to help you achieve optimal health and wellness through safe, gentle and effective chiropractic services.
   button:
     enabled: false
     open_in_new_tab: true
