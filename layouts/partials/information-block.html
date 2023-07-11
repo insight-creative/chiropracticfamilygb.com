@@ -8,16 +8,16 @@
     {{ end }}
     <div class="flow">
       {{ range .content }}
-      <div class="information-block__content">
-        <h2 class="shift-down">{{ .heading }}</h2>
-        <p>{{ .body | markdownify}}</p>
-      </div>
+        <div class="information-block__content">
+          <h2 class="shift-down">{{ .heading }}</h2>
+          <p>{{ .body | markdownify}}</p>
+        </div>
       {{ end }}
       {{ if .button.enabled }}
-      {{ with .button }}
-        {{ partial "button-primary" . }}
+        {{ with .button }}
+          {{ partial "button-primary" . }}
+        {{ end }}
       {{ end }}
-    {{ end }}
     </div>
   </div>
   <div class="information-block__image-box-right">

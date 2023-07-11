@@ -1,18 +1,22 @@
 .information-block {
 
   &__image-box-left {
-      position: absolute;
-      z-index: -1;
-      width: clamp(200px, 50%, 545px);
-      top: 1340px;
-      left: -47px;
+    position: absolute;
+    z-index: -1;
+    width: clamp(200px, 50%, 545px);
+    top: 1340px;
+    left: -47px;
+  }
+
+  &__content:not(:first-child) {
+    margin-top: $ic-500;
   }
 
   &__image-box-right {
-      position: absolute;
-      z-index: -1;
-      width: clamp(200px, 50%, 545px);
-      top: 775px;
-      right: -140px;
+    position: absolute;
+    z-index: -1;
+    width: clamp(200px, 50%, 545px);
+    top: 775px;
+    right: -140px;
   }
 }
