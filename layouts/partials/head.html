@@ -27,7 +27,7 @@
     <meta property="twitter:title" content="{{ .Params.seo.page_title }}">
     <meta property="twitter:description" content="{{ .Params.seo.meta_description }}">
     <meta property="twitter:site" content="@">
-    <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}{{ site.BaseURL }}/uploads{{ .Params.seo.featured_image }}{{ end }}">
+    <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}https://res.cloudinary.com/chiropractic-family-gb/image/upload{{ .Params.seo.featured_image }}{{ end }}">
   
     <link href="{{ site.Params.imgixDomain }}" rel="preconnect">
 
