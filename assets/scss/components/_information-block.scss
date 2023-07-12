@@ -9,7 +9,7 @@
   }
 
   &__content:not(:first-child) {
-    margin-top: $ic-700;
+    margin-top: clamp($ic-300, 10%, $ic-700);
   }
 
   &__image-box-right {
