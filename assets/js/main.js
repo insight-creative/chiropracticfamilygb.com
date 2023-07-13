@@ -1,4 +1,4 @@
-console.log('%c Crafted by Insight Creative, Inc. Designed and Developed by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
+console.log('%c Crafted by Insight Creative, Inc. Designed by Sam Rowe and Developed by Chue Vang', 'background: #1d1d1d; color: white; padding: 5px 10px;')
 
 import { toggleMobileMenu, toggleMobileDropdowns, filterPosts, toggleLayout } from "./partials";
 

@@ -45,6 +45,9 @@
       
       @include breakpoint(sm) {
         flex-direction: row;
+      }
+
+      @include breakpoint(md) {
         margin-right: $ic-1000;
       }
     }
