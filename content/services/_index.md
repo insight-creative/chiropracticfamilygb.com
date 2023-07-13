@@ -7,7 +7,7 @@ menu:
     weight: 1
 seo:
   page_title: Servies
-  meta_description:
+  meta_description: At Chiropractic Family, our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.
   featured_image:
 hero: 
   enabled: true
