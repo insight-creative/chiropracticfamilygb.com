@@ -4,7 +4,7 @@ title: Privacy Policy
 page_class: privacy
 seo:
   title:
-  description: Chiropractic Family privacy policy
+  meta_description: Chiropractic Family privacy policy
 ---
 
 By accessing or using Chiropractic Family's website, you agree to the terms of this Online Privacy Policy, as outlined below. If you do not agree to these terms, please do not access or use this site.
