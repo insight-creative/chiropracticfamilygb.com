@@ -54,13 +54,12 @@
       margin: $ic-100;
 
       @include breakpoint(md)  {
-        margin: 0;
-        margin-left: $ic--200;
+        margin: 0 0 0 $ic--200;
 
         &::before {
           position: absolute;
           content: "|";
-          margin-left: -6px;
+          margin-left: -7px;
           top: 0;
         }
 
@@ -68,7 +67,7 @@
           position: absolute;
           content: "|";
           top: 0;
-          right: -6px;
+          right: -7px;
         }
       }
     }
