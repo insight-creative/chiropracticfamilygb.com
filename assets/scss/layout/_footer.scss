@@ -46,10 +46,6 @@
       @include breakpoint(sm) {
         flex-direction: row;
       }
-
-      @include breakpoint(md) {
-        margin-right: $ic-1000;
-      }
     }
 
     &__list-item {
@@ -59,16 +55,20 @@
 
       @include breakpoint(md)  {
         margin: 0;
-        margin-left: $ic--100;
-      }
+        margin-left: $ic--200;
 
-      &::before {
-        
-        @include breakpoint(md) {
+        &::before {
           position: absolute;
           content: "|";
-          margin-left: -8px;
+          margin-left: -6px;
           top: 0;
+        }
+
+        &:last-child::after {
+          position: absolute;
+          content: "|";
+          top: 0;
+          right: -6px;
         }
       }
     }
@@ -83,7 +83,9 @@
 
     @include breakpoint(md)  {
       .credits {
-        margin-left: auto;
+        // margin-left: auto;
+        margin-left: $ic--200;
+        // margin-right: auto;
       }
     }
   }

@@ -1,6 +1,14 @@
 .social {
   padding: 0;
 
+  @include breakpoint(sm) {
+    margin-left: $ic-100;
+  }
+  
+  @include breakpoint(md) {
+    margin-left: $ic-1000;
+  }
+
   &__icon {
 
     svg {
