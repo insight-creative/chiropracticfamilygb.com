@@ -51,7 +51,7 @@
     &__list-item {
       position: relative;
       list-style-type: none;
-      margin: $ic-100;
+      margin: $ic--100;
 
       @include breakpoint(md)  {
         margin: 0 0 0 $ic--200;
