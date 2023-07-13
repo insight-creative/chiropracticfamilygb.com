@@ -9,7 +9,7 @@ seo:
 
 By accessing or using Chiropractic Family's website, you agree to the terms of this Online Privacy Policy, as outlined below. If you do not agree to these terms, please do not access or use this site.
 
-### Collection of Personal Information
+## Collection of Personal Information
 
 When you merely use the website for informational purposes, i.e. if you do not log in to use the website, register or otherwise provide us with information, we do not collect any personal data, except for the data transmitted by your browser that enables you to access the website. This includes:
 
