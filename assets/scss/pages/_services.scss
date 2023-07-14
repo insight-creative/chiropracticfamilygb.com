@@ -1,13 +1,21 @@
-.services__outter-wrapper {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: $wrapper-radius;
+.services {
 
-  margin-top: clamp(-2rem, 10vw, -4rem);
+  &__outter-wrapper {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: $wrapper-radius;
+    margin-top: clamp(-2rem, 10vw, -4rem);
+  
+    @include breakpoint(sm) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    }
 
-   @include breakpoint(md) {
-    display: flex;
-    justify-content: center;
-   }
+    @include breakpoint(md) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
 }
 
 .parent-page-services .hero__image-box-left,
