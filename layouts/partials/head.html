@@ -31,7 +31,7 @@
   
     <link href="{{ site.Params.imgixDomain }}" rel="preconnect">
 
-    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ site.BaseURL }}">
   
     {{ $scss := resources.Get "scss/main.scss" | toCSS }}
     {{ $postcss := $scss | resources.PostCSS | minify }}
