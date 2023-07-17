@@ -11,7 +11,6 @@ summaryLength = 30
 
 [params]
   minifyBundles = true
-  imgixDomain = "https://stadium-bike.imgix.net"
 
 # add redirects/headers
   [outputs]
