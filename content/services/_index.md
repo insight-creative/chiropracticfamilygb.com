@@ -8,7 +8,7 @@ menu:
 seo:
   page_title: Services
   meta_description: At Chiropractic Family, our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.
-  featured_image:
+  featured_image: /chiropractic-family-social-preview_pnr7xb
 hero: 
   enabled: true
   heading: Our Services
@@ -19,8 +19,7 @@ hero:
 
     At Chiropractic Family, we provide services to those who are infants to elderly.
   button:
-    enabled: true
-    open_in_new_tab: true
+    enabled: false
     button_url: #
     button_text: Visit Us
   image:
@@ -84,7 +83,7 @@ who_we_service:
         * Added mobility
 
         * Sciatica treatment
-block:
+page_block:
   heading: what to expect
   enabled: true
   content:

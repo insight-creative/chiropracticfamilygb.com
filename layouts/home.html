@@ -5,8 +5,8 @@
     {{ partial "intro" . }}
   {{ end }}
 {{ end }}
-{{ if .Params.block.enabled }}
-  {{ with.Params.block }}
+{{ if .Params.page_block.enabled }}
+  {{ with.Params.page_block }}
     {{ partial "information-block" . }}
   {{ end }}
 {{ end }}

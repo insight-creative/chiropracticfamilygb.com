@@ -1,20 +1,26 @@
 {{ $heroClass := lower .Page.Title }}
 <section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero block">
-  <div class="hero__image-box-left">
+  <div class="hero__image-box-left image-absolute-clamp">
     {{ with .Params.hero }}
       {{ partial "responsive-image" . }}
     {{ end }}
   </div>
-  <div class="hero__outter-wrapper bg-transparent wrapper-xs flex flex-column">
+  <div class="hero__outter-wrapper bg-transparent wrapper-xs">
     <div class="hero__content flow">
       <h1 class="shift-down" id="hero-heading">{{ .Params.hero.heading | safeHTML }}</h1>
       {{ if .Params.hero.sub_heading }}
         <h2 class="primary-font fw-500 h3">{{ .Params.hero.sub_heading}}</h2>
       {{ end }}
-      {{ .Params.hero.body | markdownify}}
+      <p>{{ .Params.hero.body | markdownify}}</p>
+      {{ if .Params.hero.button.enabled }}
+      {{ with .Params.hero.button }}
+        {{ partial "button-primary" . }}
+      {{ end }}
+    {{ end }}
     </div>
+
   </div>
-  <div class="hero__image-box-right">
+  <div class="hero__image-box-right image-absolute">
     {{ with .Params.hero }}
       {{ partial "second-responsive-image" . }}
     {{ end }}

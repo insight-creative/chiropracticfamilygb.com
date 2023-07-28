@@ -2,17 +2,11 @@
   position: relative;
   
   &__image-box-left {
-    position: absolute;
-    z-index: -1;
-    width: clamp(200px, 50%, 545px);
-    height: auto;
     top: -75px;
     left: -120px;
   }
 
   &__image-box-right {
-    position: absolute;
-    z-index: -1;
     width: clamp(150px, 50%, 600px);
     top: 250px;
     right: -90px;

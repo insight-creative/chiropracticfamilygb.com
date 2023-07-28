@@ -1,0 +1,10 @@
+.image-absolute {
+  position: absolute;
+  z-index: -1;
+}
+
+.image-absolute-clamp {
+  position: absolute;
+  z-index: -1;
+  width: clamp(200px, 50%, 545px);
+}
