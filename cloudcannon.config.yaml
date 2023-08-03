@@ -64,6 +64,8 @@ _inputs:
         - gray
   body:
     type: markdown
+  benefits:
+    type: markdown
   button.button_url:
     type: url
   hero.button_url:
