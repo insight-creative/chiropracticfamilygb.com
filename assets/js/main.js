@@ -73,13 +73,13 @@ function expandNav() {
 
 let ticking = false;
 
-window.addEventListener("scroll", () => {
-  if (!ticking) {
-    window.requestAnimationFrame(() => {
-      scrollDetect(collapseNav, expandNav);
-      ticking = false;
-    });
+// window.addEventListener("scroll", () => {
+//   if (!ticking) {
+//     window.requestAnimationFrame(() => {
+//       scrollDetect(collapseNav, expandNav);
+//       ticking = false;
+//     });
 
-    ticking = true;
-  }
-});
+//     ticking = true;
+//   }
+// });
