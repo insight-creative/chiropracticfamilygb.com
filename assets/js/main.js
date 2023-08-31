@@ -83,16 +83,3 @@ let ticking = false;
 //     ticking = true;
 //   }
 // });
-
-function handleScroll() {
-  if (!ticking) {
-    window.requestAnimationFrame(() => {
-      scrollDetect(collapseNav, expandNav);
-      ticking = false;
-    });
-
-    ticking = true;
-  }
-}
-
-window.addEventListener("scroll", handleScroll);
