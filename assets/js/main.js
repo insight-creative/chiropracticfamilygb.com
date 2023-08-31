@@ -71,31 +71,14 @@ function expandNav() {
   siteHeader.classList.add("expand");
 }
 
-// let ticking = false;
-
-// window.addEventListener("scroll", () => {
-//   if (!ticking) {
-//     window.requestAnimationFrame(() => {
-//       scrollDetect(collapseNav, expandNav);
-//       ticking = false;
-//     });
-
-//     ticking = true;
-//   }
-// });
-
 let ticking = false;
-let timerId = null;
 
 window.addEventListener("scroll", () => {
   if (!ticking) {
-    if (timerId === null) {
-      timerId = setTimeout(() => {
-        scrollDetect(collapseNav, expandNav);
-        ticking = false;
-        timerId = null;
-      }, 200); // Adjust the delay time as needed
-    }
+    window.requestAnimationFrame(() => {
+      scrollDetect(collapseNav, expandNav);
+      ticking = false;
+    });
 
     ticking = true;
   }
