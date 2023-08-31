@@ -71,7 +71,7 @@ function expandNav() {
   siteHeader.classList.add("expand");
 }
 
-let ticking = false;
+// let ticking = false;
 
 // window.addEventListener("scroll", () => {
 //   if (!ticking) {
@@ -83,3 +83,20 @@ let ticking = false;
 //     ticking = true;
 //   }
 // });
+
+let ticking = false;
+let timerId = null;
+
+window.addEventListener("scroll", () => {
+  if (!ticking) {
+    if (timerId === null) {
+      timerId = setTimeout(() => {
+        scrollDetect(collapseNav, expandNav);
+        ticking = false;
+        timerId = null;
+      }, 200); // Adjust the delay time as needed
+    }
+
+    ticking = true;
+  }
+});
