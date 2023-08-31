@@ -71,7 +71,7 @@ function expandNav() {
   siteHeader.classList.add("expand");
 }
 
-// let ticking = false;
+let ticking = false;
 
 // window.addEventListener("scroll", () => {
 //   if (!ticking) {
@@ -83,3 +83,16 @@ function expandNav() {
 //     ticking = true;
 //   }
 // });
+
+function handleScroll() {
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      scrollDetect(collapseNav, expandNav);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+}
+
+window.addEventListener("scroll", handleScroll);
