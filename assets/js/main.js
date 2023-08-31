@@ -71,9 +71,22 @@ function expandNav() {
   siteHeader.classList.add("expand");
 }
 
+// let ticking = false;
+
+// window.addEventListener("scroll", () => {
+//   if (!ticking) {
+//     window.requestAnimationFrame(() => {
+//       scrollDetect(collapseNav, expandNav);
+//       ticking = false;
+//     });
+
+//     ticking = true;
+//   }
+// });
+
 let ticking = false;
 
-window.addEventListener("scroll", () => {
+function handleScroll() {
   if (!ticking) {
     window.requestAnimationFrame(() => {
       scrollDetect(collapseNav, expandNav);
@@ -82,4 +95,6 @@ window.addEventListener("scroll", () => {
 
     ticking = true;
   }
-});
+}
+
+window.addEventListener("scroll", handleScroll);
