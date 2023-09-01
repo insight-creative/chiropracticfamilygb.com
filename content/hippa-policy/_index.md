@@ -35,7 +35,7 @@ Emily E. Radka, D.C.
 <a href="https://goo.gl/maps/7itLiF4oJFMb12rn9" target="_blank" rel="noopener noreferrer nofollow">677 Baeten Road, Suite 201  
 Ashwaubenon, WI 54304</a>  
 Hellochiropracticfamily@gmail.com  
-[Chiropracticfamilygb.com](https://chiropracticfamilygb.com/)  
+[Chiropracticfamilygb.com](/)  
 <a href="tel:920-737-0895">920-737-0895</a>
 
 #### C. WE MAY USE AND DISCLOSURE YOUR INDIVIDUALLY IDENTIFIABLE HEALTH INFORMATION (IIHI) IN THE FOLLOWING WAYS
