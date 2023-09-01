@@ -1,5 +1,6 @@
 .full-width-form {
   background: $light-gray;
+  margin: auto;
 
   &__wrapper {
     position: relative;
@@ -9,11 +10,6 @@
 
   h2 {
     color: $tertiary-color;
-  }
-
-  @include breakpoint(md) {
-    display: flex;
-    justify-content: end;
   }
 }
 
