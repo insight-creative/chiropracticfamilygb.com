@@ -64,15 +64,15 @@ The following categories describe unique scenarios in which we may use or disclo
 
 1. **Public Health Risks.** Our practice may disclose your IIHI to public health authorities that are authorized by law to collect information for the purpose of:
 
-* Maintaining vital records, such as births and deaths 
-* Reporting child abuse or neglect 
-* Preventing or controlling disease, injury or disability 
-* Notifying a person regarding potential exposure to a communicable disease 
-* Notifying a person regarding a potential risk for spreading or contracting a disease or condition 
-* Reporting reactions to drugs or problems with products or devices 
-* Notifying individuals if a product or device they may be using has been recalled 
-* Notifying appropriate government agency(ies) and authority(ies) regarding the potential abuse or neglect of an adult patient (including domestic violence); however, we will only disclose this information if the patient agrees or we are required or authorized by law to disclose this information 
-* Notifying your employer under limited circumstances related primarily to workplace injury or illness or medical surveillance
+   * Maintaining vital records, such as births and deaths 
+   * Reporting child abuse or neglect 
+   * Preventing or controlling disease, injury or disability 
+   * Notifying a person regarding potential exposure to a communicable disease 
+   * Notifying a person regarding a potential risk for spreading or contracting a disease or condition 
+   * Reporting reactions to drugs or problems with products or devices 
+   * Notifying individuals if a product or device they may be using has been recalled 
+   * Notifying appropriate government agency(ies) and authority(ies) regarding the potential abuse or neglect of an adult patient (including domestic violence); however, we will only disclose this information if the patient agrees or we are required or authorized by law to disclose this information 
+   * Notifying your employer under limited circumstances related primarily to workplace injury or illness or medical surveillance
 
 2. **Health Oversight Activities.** Our practice may disclose your IIHI to a health oversight agency for activities authorized by law. Oversight activities can include, for example, investigations, inspections, audits, surveys, licensure and disciplinary actions; civil, administrative, and criminal procedures or actions; or other activities necessary for the government to monitor government programs, compliance with civil rights laws and the health care system in general.
 
@@ -80,12 +80,12 @@ The following categories describe unique scenarios in which we may use or disclo
 
 4. **Law Enforcement.** We may release IIHI if asked to do so by a law enforcement official:
 
-* Regarding a crime victim in certain situations, if we are unable to obtain the person’s agreement 
-* Concerning a death we believe has resulted from criminal conduct 
-* Regarding criminal conduct at our offices 
-* In response to a warrant, summons, court order, subpoena or similar legal process 
-* To identify/locate a suspect, material witness, fugitive or missing person 
-* In an emergency, to report a crime (including the location or victim(s) of the crime, or the description, identify or location of the perpetrator)
+   * Regarding a crime victim in certain situations, if we are unable to obtain the person’s agreement 
+   * Concerning a death we believe has resulted from criminal conduct 
+   * Regarding criminal conduct at our offices 
+   * In response to a warrant, summons, court order, subpoena or similar legal process 
+   * To identify/locate a suspect, material witness, fugitive or missing person 
+   * In an emergency, to report a crime (including the location or victim(s) of the crime, or the description, identify or location of the perpetrator)
 
 5. **Deceased Patients.** Our practice may release IIHI to a medical examiner or coroner to identify a deceased individual or to identify the cause of death. If necessary, we also may release information in order for funeral directors to perform their jobs.
 
