@@ -32,8 +32,8 @@ The terms of this notice apply to all records containing your IIHI that are crea
 
 Chiropractic Family, LLC  
 Emily E. Radka, D.C.  
-677 Baeten Road, Suite 201  
-Ashwaubenon, WI 54304  
+<a href="https://goo.gl/maps/7itLiF4oJFMb12rn9" target="_blank" rel="noopener noreferrer nofollow">677 Baeten Road, Suite 201  
+Ashwaubenon, WI 54304</a>  
 Hellochiropracticfamily@gmail.com  
 [Chiropracticfamilygb.com](https://chiropracticfamilygb.com/)  
 <a href="tel:920-737-0895">920-737-0895</a>
