@@ -18,7 +18,7 @@ As required by the Privacy Regulations created as a result of the Health Insuran
 
 #### A. OUR COMMITMENT TO YOUR PRIVACY
 
-Our practice is dedicated to maintaining the privacy of your individually identifiable health information (IIHI). In conducting our business, we will create records regarding you and your treatment and the services we provide for you. **We are required by law to maintain the confidentiality of health information that identifies you.** We also are required by law to provide you with this notice of our legal duties and the privacy practices that we maintain in our practice concerning your IIHI. By federal and state law, we must follow the terms of the notice of privacy practices that we have in effect at this time.
+Our practice is dedicated to maintaining the privacy of your individually identifiable health information (**IIHI**). In conducting our business, we will create records regarding you and your treatment and the services we provide for you. **We are required by law to maintain the confidentiality of health information that identifies you.** We also are required by law to provide you with this notice of our legal duties and the privacy practices that we maintain in our practice concerning your IIHI. By federal and state law, we must follow the terms of the notice of privacy practices that we have in effect at this time.
 
 We realize that these laws are complicated, but we must provide you with the following important information:
 
@@ -78,7 +78,7 @@ The following categories describe unique scenarios in which we may use or disclo
 
 3. **Lawsuits and Similar Proceedings.** Our practice may use and disclose your IIHI in response to a court or administrative order, if you are involved in a lawsuit or similar proceeding. We also may disclose your IIHI in response to discovery request, subpoena, or other lawful process by another party involved in the dispute, but only if we have made an effort to inform you of the request or to obtain an order protecting the information the party has requested.  In general, we will require that the party that requests your records provide a records-release form, signed by you within the last 3 months.
 
-4. Law Enforcement. We may release IIHI if asked to do so by a law enforcement official:
+4. **Law Enforcement.** We may release IIHI if asked to do so by a law enforcement official:
 
 * Regarding a crime victim in certain situations, if we are unable to obtain the person’s agreement 
 * Concerning a death we believe has resulted from criminal conduct 
