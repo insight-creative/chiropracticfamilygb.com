@@ -1,6 +1,5 @@
 .full-width-form {
   background: $light-gray;
-  margin: auto;
 
   &__wrapper {
     position: relative;
@@ -23,6 +22,7 @@
   &__wrapper {
 
     @include breakpoint(md) {
+      display: flex;
       gap: $ic-500;
     }
   }
