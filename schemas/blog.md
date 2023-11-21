@@ -1,7 +1,6 @@
 ---
 title:
 draft: true
-url:
 seo:
   page_title:
   meta_description:
