@@ -6,7 +6,7 @@ menu:
 seo:
   page_title:
   meta_description:
-  featured_image:
+  featured_image: /chiropractic-family-social-preview_pnr7xb.jpg
 hero: 
   enabled: true
   heading: Blog

@@ -3,7 +3,7 @@ title: Contact
 seo:
   page_title: Contact
   meta_description: Our goal is to help you achieve optimal health and wellness through safe, gentle and effective chiropractic services.
-  featured_image: /chiropractic-family-social-preview_pnr7xb
+  featured_image: /chiropractic-family-social-preview_pnr7xb.jpg
 hero: 
   enabled: true
   heading: Contact

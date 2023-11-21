@@ -8,7 +8,7 @@ menu:
 seo:
   page_title: Services
   meta_description: At Chiropractic Family, our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.
-  featured_image: /chiropractic-family-social-preview_pnr7xb
+  featured_image: /chiropractic-family-social-preview_pnr7xb.jpg
 hero: 
   enabled: true
   heading: Our Services
