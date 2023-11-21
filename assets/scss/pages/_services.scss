@@ -17,24 +17,6 @@
   }
 }
 
-.parent-page-services .hero__image-box-left,
-.page-about .hero__image-box-left,
-.page-contact .hero__image-box-left,
-.parent-page-join-waitlist .hero__image-box-left {
-  top: 50px;
-  left: -105px;
-  width: clamp(150px,50%,350px);
-}
-
-.parent-page-services .hero__image-box-right,
-.page-about .hero__image-box-right,
-.page-contact .hero__image-box-right,
-.parent-page-join-waitlist .hero__image-box-right {
-  top: 70px;
-  right: -65px;
-  width: clamp(150px,50%,365px);
-}
-
 .parent-page-services .information-block__image-box-left {
   width: clamp(200px, 50%, 480px);
   top: 890px;

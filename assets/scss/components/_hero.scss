@@ -1,14 +1,27 @@
 .hero {
   position: relative;
-  
-  &__image-box-left {
-    top: -75px;
-    left: -120px;
-  }
+}
 
-  &__image-box-right {
-    width: clamp(150px, 50%, 600px);
-    top: 250px;
-    right: -90px;
-  }
+.hero__image-box-left {
+  top: 50px;
+  left: -105px;
+  width: clamp(150px,50%,350px);
+}
+
+.hero__image-box-right {
+  top: 70px;
+  right: -65px;
+  width: clamp(150px,50%,365px);
+}
+
+.page-home .hero__image-box-left {
+  top: -75px;
+  left: -120px;
+  width: clamp(200px, 50%, 545px);
+}
+
+.page-home .hero__image-box-right {
+  width: clamp(150px, 50%, 600px);
+  top: 250px;
+  right: -90px;
 }

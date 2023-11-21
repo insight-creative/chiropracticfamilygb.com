@@ -11,9 +11,17 @@
             <div class="card__image-wrap">
                 <a href="{{ .Permalink }}" class="card__link">
                 {{ if .Params.seo.featured_image }}
-                    <img src="{{ .Params.seo.featured_image }}" alt="" class="card__img dim">
+                    <picture>
+                        <source srcset="https://res.cloudinary.com/chiropractic-family-gb/image/upload/f_avif,q_85,w_500{{ .Params.seo.featured_image }}" type="image/avif">
+        
+                        <source srcset="https://res.cloudinary.com/chiropractic-family-gb/image/upload/f_webp,q_85,w_500{{ .Params.seo.featured_image }}" type="image/webp">
+        
+                        <source srcset="https://res.cloudinary.com/chiropractic-family-gb/image/upload/f_jpg,q_85,w_500{{ .Params.seo.featured_image }}" type="image/jpg">
+                    
+                        <img class="card__img dim" src="https://res.cloudinary.com/chiropractic-family-gb/image/upload{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="500" height="300" loading="lazy">   
+                    </picture>
                 {{ else }}
-                    <img src="https://source.unsplash.com/random/800x600?space" alt="" class="card__img dim">
+                    <img src="https://source.unsplash.com/random/800x600?chiropractic" alt="" class="card__img dim">
                 {{  end }}
                 </a>
             </div>

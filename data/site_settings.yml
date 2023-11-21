@@ -14,7 +14,7 @@ business_hours:
   full_day: Monday-Thursday
   full_day_hours: 9am-1pm, 3pm-6pm
   half_day: Friday
-  half_day_hours: 9am-1pm
+  half_day_hours: Closed
 social_media:
   - title: Facebook
     link: https://www.facebook.com/people/Chiropractic-Family-Green-Bay/100093255198784/?mibextid=LQQJ4d

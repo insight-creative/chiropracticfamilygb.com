@@ -1,16 +1,19 @@
 {{ define "main" }}
-{{ partial "hero" . }}
-{{ partial "breadcrumbs" . }}
-<section class="block">
-  <div class="wrapper-lg flex flex-justify-between">
-    {{ partial "blog/category-filter" . }}
-    {{ partial "blog/layout-toggle" . }}
+<section aria-labelledby="hero-heading" class="hero block">
+  <div class="hero__outter-wrapper bg-transparent wrapper-xs">
+    <div class="hero__content flow">
+      <h1 class="shift-down" id="hero-heading">{{ .Title }} Posts</h1>
+    </div>
   </div>
-  <ul class="blog--list wrapper-lg gap-md">
-    {{ range .Paginator.Pages.ByDate.Reverse }}
-      {{ .Render "blog-card" }}
-    {{ end }}
-  </ul>
+</section>
+<section class="block">
+  <div class="wrapper-md">
+    <ul class="blog-list gap-md">
+      {{ range .Paginator.Pages.ByDate.Reverse }}
+        {{ .Render "blog-card" }}
+      {{ end }}
+    </ul>
+  </div>
   {{ partial "blog/custom-pagination.html" . }}
 </section>
 {{ end }}
