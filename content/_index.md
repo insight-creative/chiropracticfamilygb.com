@@ -1,18 +1,18 @@
 ---
 title: Home
 seo:
-  title: Chiropractic Care In Green Bay, WI
+  page_title: Chiropractor In Green Bay, WI
   meta_description: At Chiropractic Family, we are committed to promoting optimal health and empowering families to take control of their well-being. Discover the transformative benefits of our personalized chiropractic care, designed to alleviate pain and enhance overall wellness.
   featured_image: /chiropractic-family-social-preview_pnr7xb.jpg
 hero:
   enabled: true
-  heading: Chiropractic Care In Green Bay, WI
+  heading: Chiropractor In Green Bay, WI
   sub_heading: Your Path to Healing and Empowered Wellness
   body: 
     We’re grateful to have you here at Chiropractic Family, a place where healing happens and your wellness journey begins. Our goal is to help you achieve optimal health and wellness through safe, gentle, and effective chiropractic services. We invite you to take a step towards better health.
 
 
-    <span class="h4"><strong>Welcome to our family!</strong></span>
+    <a class="btn btn--primary" href="https://chiropracticfamilygb.janeapp.com/locations/chiropractic-family-llc/book/month" target="_blank" aria-label="Schedule an Appointment" title="Schedule an Appointment">Schedule an Appointment</a>
   image:
     image_url: /neck-adjustment-group_bltcoh.jpg
     image_alt: Male patient getting his neck readjusted

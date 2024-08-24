@@ -1,10 +1,6 @@
-<form class="full-width-form" method="post" name="Contact Chiropractic Family" action="/thank-you/">
-    <div class="visually-hidden">
-        <label for="_subject">New form submission from Chiropractic Family contact form</label>
-        <input aria-label="subject" id="_subject" name="_subject" value="New form submission from Chiropractic Family contact form"/>
-    </div>
-    <div class="full-width-form__wrapper">
-        <div class="full-width-form__info-col">
+<div class="block bg-gray">
+    <div class="wrapper columns-two-thirds-right gap-lg">
+        <div class="full-width-form__info-col col">
             <h2>visit us</h2>
             <div class="full-width-form__business-location">
                 <p class="h4 b">Chiropractic Family</p>
@@ -28,10 +24,11 @@
                         <p><span><a href="tel:{{ .Site.Data.site_settings.phone }}">{{ .Site.Data.site_settings.phone }}</a></span></p>
                     </li>
                 </ul>
+                <a class="btn btn--primary" href="https://chiropracticfamilygb.janeapp.com/locations/chiropractic-family-llc/book/month" target="_blank" aria-label="Schedule an Appointment" title="Schedule an Appointment">Schedule an Appointment</a>
             </div>
         </div>
-        <div class="full-width-form__form-col">
+        <div class="full-width-form__form-col col">
             <script src="https://cdn.hipaamate.com/forms/contact/api.js" data-website-id="cllpbub2z0001s601nw7poxm8" defer></script>
         </div>
     </div>
-</form>
+</div>

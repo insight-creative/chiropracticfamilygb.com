@@ -6,7 +6,7 @@ menu:
   footer:
     weight: 1
 seo:
-  page_title: Services
+  page_title: Chiropractic Care In Green Bay, WI
   meta_description: At Chiropractic Family, our mission is to provide compassionate and personalized chiropractic care to help you achieve optimal health and wellness.
   featured_image: /chiropractic-family-social-preview_pnr7xb.jpg
 hero: 
@@ -18,6 +18,9 @@ hero:
 
 
     At Chiropractic Family, we provide services to those who are infants to elderly.
+
+
+    <a class="btn btn--primary" href="https://chiropracticfamilygb.janeapp.com/locations/chiropractic-family-llc/book/month" target="_blank" aria-label="Schedule an Appointment" title="Schedule an Appointment">Schedule an Appointment</a>
   button:
     enabled: false
     button_url: #
