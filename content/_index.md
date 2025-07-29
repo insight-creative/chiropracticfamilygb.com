@@ -38,8 +38,8 @@ intro:
     of all ages, from infants to seniors, Dr. Emily is committed to providing
     **compassionate and personalized chiropractic care.**
   image:
-    image_url: /dr-emily-radka_wljrbl.jpg
-    image_alt: 'Headshot of Dr. Emily '
+    image_url: /Screenshot_2025-07-29_100047_pjttqd.jpg
+    image_alt: 'Headshot of Dr. Emily DeBrabander '
   button:
     enabled: true
     button_url: /about/
