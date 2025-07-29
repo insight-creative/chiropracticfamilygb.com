@@ -39,7 +39,7 @@ intro:
     **compassionate and personalized chiropractic care.**
   image:
     image_url: /dr-emily-radka_wljrbl.jpg
-    image_alt: Headshot of Dr. Emily DeBabander
+    image_alt: 'Headshot of Dr. Emily '
   button:
     enabled: true
     button_url: /about/
